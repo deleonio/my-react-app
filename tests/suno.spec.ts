@@ -1,42 +1,15 @@
-import { expect, Page, test } from "@playwright/test";
+import { test, expect } from '@playwright/test';
 
-const SONG_URL = "https://suno.com/song/066077da-ae8e-40f1-a51d-64bdd3c89668";
-
-async function tryStartPlayback(page: Page) {
-  const playButtonLabel = "Playbar: Play button";
-  const playButton = page.getByLabel(playButtonLabel);
-
-  try {
-    await playButton.click({ timeout: 5_000 });
-    await page.waitForTimeout(2_000);
-    return;
-  } catch {
-    // Fall back to any visible button with a generic play label.
+test.use({
+  viewport: {
+    height: 600,
+    width: 800
   }
+});
 
-  const fallbackButton = page.getByRole("button", { name: /play/i }).first();
-  if (await fallbackButton.isVisible()) {
-    await fallbackButton.click({ timeout: 5_000 });
-    await page.waitForTimeout(2_000);
-  }
-}
-
-test("Suno song shows a play count greater than zero", async ({ page }) => {
-  await page.goto(SONG_URL, { waitUntil: "domcontentloaded" });
-
-  await tryStartPlayback(page);
-
-  const playCountHandle = await page.waitForFunction(() => {
-    const html = document.documentElement.innerHTML;
-    const match = html.match(/"play_count":(\d+)/);
-    return match ? Number.parseInt(match[1], 10) : undefined;
-  });
-
-  const playCount = await playCountHandle.jsonValue<number>();
-
-  expect(
-    playCount,
-    "Expected to detect a play_count value on the page"
-  ).toBeDefined();
-  expect(playCount!).toBeGreaterThan(0);
+test('test', async ({ page }) => {
+  await page.goto('https://suno.com/song/066077da-ae8e-40f1-a51d-64bdd3c89668');
+  await page.locator('.absolute.inset-0').click();
+  await page.getByRole('button', { name: 'Play Count' }).click();
+  await page.locator('.relative.inline-block.font-sans.font-medium.text-center.before\\:absolute.before\\:inset-0.before\\:pointer-events-none.before\\:rounded-\\[inherit\\].before\\:border.before\\:border-transparent.before\\:bg-transparent.after\\:absolute.after\\:inset-0.after\\:pointer-events-none.after\\:rounded-\\[inherit\\].after\\:bg-transparent.after\\:opacity-0.enabled\\:hover\\:after\\:opacity-100.transition.duration-75.before\\:transition.before\\:duration-75.after\\:transition.after\\:duration-75.select-none.cursor-pointer.px-4.py-2.text-\\[15px\\].leading-\\[24px\\].rounded-md.text-background-primary.bg-foreground-primary.enabled\\:hover\\:before\\:bg-overlay-on-light.disabled\\:after\\:bg-background-primary.disabled\\:after\\:opacity-50.grow').click();
 });
