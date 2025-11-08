@@ -13,8 +13,15 @@
 		"update": "ncu -u"
 	},
 	"dependencies": {
+		"@hookform/resolvers": "^5.2.2",
+		"@public-ui/components": "^3.0.7",
+		"@public-ui/react-hook-form-adapter": "^3.0.7",
+		"@public-ui/react-v19": "^3.0.7",
+		"@public-ui/theme-default": "^3.0.7",
 		"react": "19.2.0",
-		"react-dom": "19.2.0"
+		"react-dom": "19.2.0",
+		"react-hook-form": "^7.66.0",
+		"zod": "^4.1.12"
 	},
 	"devDependencies": {
 		"@eslint/js": "9.39.1",
