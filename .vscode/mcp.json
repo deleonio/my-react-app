@@ -2,7 +2,7 @@
 	"servers": {
 		"kolibri-mcp": {
 			"type": "http",
-			"url": "https://kolibri-6pwxm4qaz-public-ui-kolibri-mcp.vercel.app/mcp/"
+			"url": "https://public-ui-kolibri-mcp.vercel.app/mcp"
 		}
 	},
 	"inputs": []
