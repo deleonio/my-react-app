@@ -1,43 +1,46 @@
 {
-        "name": "my-react-app",
-        "private": true,
-        "version": "0.0.0",
-        "type": "module",
-        "scripts": {
-                "dev": "vite",
-                "build": "tsc -b && vite build",
-                "format": "prettier --write .",
-                "lint": "eslint .",
-                "test": "vitest",
-                "preview": "vite preview",
-                "test:e2e": "playwright test",
-                "update": "ncu -u"
-        },
-        "dependencies": {
-                "react": "19.2.0",
-                "react-dom": "19.2.0"
-        },
-        "devDependencies": {
-                "@eslint/js": "9.39.1",
-                "@playwright/test": "1.56.1",
-                "@testing-library/jest-dom": "6.9.1",
-                "@testing-library/react": "16.3.0",
-                "@testing-library/user-event": "14.6.1",
-                "@types/node": "24.10.0",
-                "@types/react": "19.2.2",
-                "@types/react-dom": "19.2.2",
-                "@vitejs/plugin-react-swc": "4.2.0",
-                "eslint": "9.39.1",
-                "eslint-plugin-react-hooks": "7.0.1",
-                "eslint-plugin-react-refresh": "0.4.24",
-                "globals": "16.5.0",
-                "jsdom": "27.2.0",
-                "npm-check-updates": "19.1.2",
-                "prettier": "3.6.2",
-                "prettier-plugin-organize-imports": "4.3.0",
-                "typescript": "5.9.3",
-                "typescript-eslint": "8.46.3",
-                "vite": "7.1.12",
-                "vitest": "4.0.14"
-        }
+	"name": "my-react-app",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc -b && vite build",
+		"format": "prettier --write .",
+		"lint": "eslint .",
+		"test": "vitest",
+		"preview": "vite preview",
+		"test:e2e": "playwright test",
+		"update": "ncu -u"
+	},
+	"dependencies": {
+		"@public-ui/components": "^3.0.7",
+		"@public-ui/react-v19": "^3.0.7",
+		"@public-ui/theme-default": "^3.0.7",
+		"react": "19.2.0",
+		"react-dom": "19.2.0"
+	},
+	"devDependencies": {
+		"@eslint/js": "9.39.1",
+		"@playwright/test": "1.56.1",
+		"@testing-library/jest-dom": "6.9.1",
+		"@testing-library/react": "16.3.0",
+		"@testing-library/user-event": "14.6.1",
+		"@types/node": "24.10.0",
+		"@types/react": "19.2.2",
+		"@types/react-dom": "19.2.2",
+		"@vitejs/plugin-react-swc": "4.2.0",
+		"eslint": "9.39.1",
+		"eslint-plugin-react-hooks": "7.0.1",
+		"eslint-plugin-react-refresh": "0.4.24",
+		"globals": "16.5.0",
+		"jsdom": "27.2.0",
+		"npm-check-updates": "19.1.2",
+		"prettier": "3.6.2",
+		"prettier-plugin-organize-imports": "4.3.0",
+		"typescript": "5.9.3",
+		"typescript-eslint": "8.46.3",
+		"vite": "7.1.12",
+		"vitest": "4.0.14"
+	}
 }
