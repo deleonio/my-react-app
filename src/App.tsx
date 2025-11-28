@@ -1,28 +1,27 @@
-import { useState } from 'react';
+import '@public-ui/components';
+import '@public-ui/theme-default';
+import { useEffect } from 'react';
 import './App.css';
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
+import { KoliBriForm } from './components/KoliBriForm';
 
 function App() {
-	const [count, setCount] = useState(0);
+	useEffect(() => {
+		// KoliBri wird automatisch durch die Importe initialisiert
+		console.log('KoliBri initialized');
+	}, []);
 
 	return (
 		<>
-			<div>
-				<a href="https://vite.dev" target="_blank">
-					<img src={viteLogo} className="logo" alt="Vite logo" />
-				</a>
-				<a href="https://react.dev" target="_blank">
-					<img src={reactLogo} className="logo react" alt="React logo" />
-				</a>
-			</div>
-			<h1>Vite + React</h1>
-			<div className="card">
-				<button onClick={() => setCount((count) => count + 1)}>count is {count}</button>
-				<p>
-					Edit <code>src/App.tsx</code> and save to test HMR
-				</p>
-			</div>
+			<header className="app-header">
+				<h1>🎨 Willkommen zu KoliBri</h1>
+				<p>Ein barrierefreies Web Component Formular</p>
+			</header>
+			<main>
+				<KoliBriForm />
+			</main>
+			<footer className="app-footer">
+				<p>Gebaut mit KoliBri - Accessible Web Components</p>
+			</footer>
 		</>
 	);
 }
