@@ -1,0 +1,31 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "RAG: Frage stellen",
+			"type": "shell",
+			"command": "node",
+			"args": ["${workspaceFolder}/rag/cli.js"],
+			"problemMatcher": [],
+			"presentation": {
+				"reveal": "always",
+				"panel": "new"
+			}
+		},
+		{
+			"label": "RAG: Schnelle Frage",
+			"type": "shell",
+			"command": "node",
+			"args": ["${workspaceFolder}/ask.js", "${input:question}"],
+			"problemMatcher": []
+		}
+	],
+	"inputs": [
+		{
+			"id": "question",
+			"type": "promptString",
+			"description": "Deine Frage an die Wissensbasis",
+			"default": ""
+		}
+	]
+}

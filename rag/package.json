@@ -1,0 +1,29 @@
+{
+	"name": "markdown-rag",
+	"version": "1.0.0",
+	"description": "RAG System für Markdown-Dateien mit Ollama und LanceDB",
+	"type": "module",
+	"main": "src/index.js",
+	"scripts": {
+		"index": "node src/index.js",
+		"search": "node src/search.js",
+		"interactive": "node src/interactive.js",
+		"stats": "node src/stats.js"
+	},
+	"dependencies": {
+		"@lancedb/lancedb": "^0.13.0",
+		"apache-arrow": "^17.0.0"
+	},
+	"engines": {
+		"node": ">=18.0.0"
+	},
+	"keywords": [
+		"rag",
+		"vector-database",
+		"ollama",
+		"lancedb",
+		"markdown"
+	],
+	"author": "",
+	"license": "MIT"
+}

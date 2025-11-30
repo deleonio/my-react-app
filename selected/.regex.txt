@@ -1,0 +1,11 @@
+# Such-Regex für Issue-Filterung
+
+## a11y (Barrierefreiheit)
+barrierefreih|accessibility|a11y|screenreader|aria|wcag|barrierefrei|bitv|bfit|zugänglichkeit
+
+## kolibri (Web Components)
+kolibri|public-ui|itzbund|webcomponent|web component|angular|react|vue|svelte
+
+## ui (User Interface & Design Systems)
+ux|ui|designsystem|design system|desybri|kern|desy|benutzeroberfläche|oberfläche|frontend
+
