@@ -24,18 +24,11 @@
 
 <!-- KoliBri Kommentar: https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/335 -->
 
-Die Frage des IT-Referats München ist berechtigt: Warum fehlt Vue.js, wenn Angular und React drin sind? Und was ist mit Spring, Apache Camel, Laravel? Die Liste wirkt unvollständig und ohne klare Kriterien.
+Die Frage des IT-Referats München ist berechtigt: "Vue" fehlt bei "JavaScript/Typescript", während Angular und React drin sind. Ihre Auflistung zeigt die Lücken: "Spring", "Apache Camel", "Laravel" – die Liste wirkt unvollständig und "unter welchen Gesichtspunkten Programmiersprachen ausgewählt wurden" bleibt unklar.
 
-KoliBri löst genau dieses Problem auf der UI-Ebene: Statt Angular, React, Vue einzeln aufzulisten, bieten wir Web Components, die mit allen funktionieren – auch mit den fehlenden Frameworks. 50+ Komponenten, die mit Spring-Backends, Laravel-Projekten oder Vue-Frontends gleichermaßen arbeiten.
+KoliBri löst genau dieses Problem auf der UI-Ebene: Statt Angular, React, Vue einzeln aufzulisten, bieten wir Web Components (W3C-Standard seit 2018), die mit allen funktionieren. 50+ Komponenten, WCAG 2.1 konform – ob Spring-Backend, Laravel-Projekt oder Vue-Frontend, alle nutzen dieselbe barrierefreie UI-Basis.
 
-**KoliBri für Framework-Vollständigkeit:**
-
-- **Alle Frameworks abgedeckt**: Vue, React, Angular, Spring, Laravel, Camel – alles funktioniert
-- **50+ Komponenten**: Kein Framework nötig, Web Components laufen direkt im Browser
-- **WCAG 2.1 konform**: 10 Mio. Menschen mit Behinderung in DE profitieren
-- **3.000+ Downloads/Woche**: Praxisbeweis für Framework-Unabhängigkeit
-
-Welche Frameworks fehlen aus Ihrer Sicht am meisten im Stack?
+Ihr Use-Case-Fokus "Python für KI-Entwicklung, Java für Backend mit Business-Logik" macht Sinn. KoliBri ergänzt das: Die UI-Schicht bleibt unabhängig vom Backend, 3.000+ wöchentliche npm-Downloads, 10 Mio. Menschen mit Behinderung in Deutschland profitieren. Welche Frameworks fehlen aus Ihrer Sicht am meisten im Stack?
 
 ---
 

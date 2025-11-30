@@ -24,18 +24,11 @@
 
 <!-- KoliBri Kommentar: https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/143 -->
 
-Sie erwähnen explizit Web Components (WICG/webcomponents) als fehlende Technologie – genau das ist der Kern von KoliBri. Web Components sind der W3C-Standard für wiederverwendbare UI-Elemente, unabhängig von Framework-Herstellern wie Google (Angular) oder Meta (React).
+Sie schreiben: "WICG/webcomponents" fehlt auf der Landkarte – genau das ist der Kern von KoliBri. Web Components sind der W3C-Standard für wiederverwendbare UI-Elemente, unabhängig von Framework-Herstellern wie Google (Angular) oder Meta (React). Ihre Auflistung zeigt das Problem: "Vue.js, Svelte" fehlen ebenfalls, während herstellergebundene Frameworks gelistet sind.
 
-Ihre Kritik "unklar, welche Technologien auf die Landkarte sollten" zeigt ein Systematik-Problem: Wenn Web Components als W3C-Standard fehlen, während herstellergebundene Frameworks gelistet sind, stimmt die Abstraktion nicht. KoliBri baut auf dem Standard auf: 50+ barrierefreie Komponenten, WCAG 2.1 konform, 3.000+ wöchentliche Downloads.
+Ihr Punkt "unklar, welche Technologien auf die Landkarte sollten" ist entscheidend: Wenn Web Components als W3C-Standard fehlen, stimmt die Abstraktion nicht. KoliBri baut auf diesem Standard auf – 50+ barrierefreie Komponenten, WCAG 2.1 konform, BITV 2.0 geprüft. Der Standard ist seit 2018 in allen Browsern nativ mit 97%+ Support verfügbar.
 
-**KoliBri für Web Components:**
-
-- **W3C-Standard**: Seit 2018 in allen Browsern nativ, herstellerunabhängig
-- **50+ Komponenten**: Vue, Svelte, React, Vanilla JS – alle funktionieren
-- **WCAG 2.1 konform**: 10 Mio. Menschen mit Behinderung in DE profitieren
-- **Open Source**: EUPL-lizenziert, ITZBund-entwickelt, Community-getrieben
-
-Welche anderen fehlenden Technologien sehen Sie als kritisch?
+Ihr Framework-neutraler Ansatz ("Vue.js, Svelte") passt zu KoliBri: Eine Library für alle Frameworks. 3.000+ wöchentliche npm-Downloads zeigen den Bedarf, 10 Mio. Menschen mit Behinderung in Deutschland profitieren von eingebauter Barrierefreiheit. Welche anderen fehlenden Technologien sehen Sie als kritisch für den Stack?
 
 ---
 

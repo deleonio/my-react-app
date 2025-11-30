@@ -24,18 +24,11 @@
 
 <!-- KoliBri Kommentar: https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/144 -->
 
-Ihr Punkt zur Souveränität ist zentral: "Angular und React gehören zu Google und Meta." Sie fordern zu Recht unabhängigere Alternativen wie Vue. Aber es gibt eine noch bessere Lösung: Web Components – der W3C-Standard, der keinem Konzern gehört.
+Sie schreiben: "Angular und React" sind "zwei Frontend Frameworks, die zu Google und Meta gehören. Vor dem Ziel eines souveränen Stacks sollten auch unabhängigere Frameworks wie Vue aufgeführt werden." Ihr Punkt zur Souveränität ist zentral.
 
-KoliBri basiert auf diesem Standard: 50+ barrierefreie Komponenten, keine Google/Meta-Abhängigkeit, volle Souveränität. Die Komponenten funktionieren mit Vue, React, Angular oder ohne Framework. Die Backend-Frameworks, die Sie nennen (Django, FastAPI, Actix), können KoliBri im Frontend nutzen.
+Aber es gibt eine noch bessere Lösung: Web Components – der W3C-Standard, der keinem Konzern gehört. KoliBri basiert auf diesem Standard seit 2018 mit 97%+ Browser-Support: 50+ barrierefreie Komponenten, keine Google/Meta-Abhängigkeit, volle Souveränität. Die Komponenten funktionieren mit Vue, React, Angular oder ohne Framework.
 
-**KoliBri für digitale Souveränität:**
-
-- **Herstellerunabhängig**: Web Components (W3C), kein Google/Meta-Lock-in
-- **50+ Komponenten**: WCAG 2.1 konform, 3.000+ wöchentliche Downloads
-- **EUPL-lizenziert**: ITZBund-entwickelt, öffentlich finanziert, offen verfügbar
-- **Backend-agnostisch**: Django, FastAPI, Actix – alle nutzen dieselbe UI
-
-Sehen Sie Vue als ausreichend souverän, oder wäre ein komplett standardbasierter Ansatz besser?
+Ihre Backend-Empfehlungen "Django, FastAPI und Actix Web" können KoliBri im Frontend nutzen: WCAG 2.1 konform, EUPL-lizenziert, ITZBund-entwickelt, 3.000+ wöchentliche npm-Downloads. 10 Mio. Menschen mit Behinderung in Deutschland profitieren von eingebauter Barrierefreiheit. Sehen Sie Vue als ausreichend souverän, oder wäre ein komplett standardbasierter Ansatz besser?
 
 ---
 

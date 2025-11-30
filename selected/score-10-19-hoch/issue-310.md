@@ -24,18 +24,11 @@
 
 <!-- KoliBri Kommentar: https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/310 -->
 
-Die SCS-Stellungnahme formuliert es präzise: "auf interoperable Komponenten und Schnittstellen setzen, deren Interoperabilität durch Standards und deren Konformitätstests sichergestellt wird." Das gilt für Cloud-Infrastruktur – und für UI-Komponenten.
+Sie schreiben: "Auf interoperable Komponenten und Schnittstellen setzen, deren Interoperabilität durch Standards und deren Konformitätstests sichergestellt wird." Die SCS-Stellungnahme trifft damit einen zentralen Punkt – das gilt für Cloud-Infrastruktur und für UI-Komponenten.
 
-Was SCS für Cloud-Schichten leistet, bietet KoliBri für die UI-Schicht: "zertifizierbare, verifizierbare Standards" durch WCAG 2.1 Konformität, und Web Components als interoperable Schnittstelle. Der Ansatz "modulare, Open Source Referenzimplementierung" trifft auch auf KoliBri zu – 50+ Komponenten, vom ITZBund finanziert, offen verfügbar.
+Ihr Punkt "zertifizierbare, und dementsprechend verifizierbare, Standards" ist entscheidend: Was SCS für Cloud-Schichten leistet, bietet KoliBri für die UI-Schicht. WCAG 2.1 Konformität als messbarer Standard, Web Components als interoperable Schnittstelle (W3C-Standard seit 2018). Der Ansatz "modulare, Open Source Referenzimplementierung" trifft auch auf KoliBri zu – 50+ Komponenten, ITZBund-entwickelt, EUPL-lizenziert.
 
-**KoliBri passt zu SCS-Prinzipien:**
-
-- **Standards + Konformitätstests**: WCAG 2.1, BITV 2.0 automatisiert geprüft
-- **Interoperabilität**: Web Components über Framework-Grenzen hinweg
-- **Öffentlich finanziert**: ITZBund-Entwicklung, EUPL-Lizenz, wie SCS vom Bund gefördert
-- **50+ Komponenten**: Modulare Referenzimplementierung für barrierefreie UIs
-
-Gibt es Bestrebungen, SCS und UI-Standards zu verbinden?
+Ihre Forderung nach "vom Bund finanzierte, bereits etablierte Standards" erfüllt KoliBri: 3.000+ wöchentliche npm-Downloads, 10 Mio. Menschen mit Behinderung in Deutschland profitieren. Gibt es Bestrebungen, SCS-Cloud-Standards und UI-Standards wie KoliBri zu verbinden?
 
 ---
 

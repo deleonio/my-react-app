@@ -24,18 +24,11 @@
 
 <!-- KoliBri Kommentar: https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/349 -->
 
-Ihr Punkt ist zentral: "In der Schicht 'Oberfläche und Zugang' fehlt der Teilbereich 'Barrierefreiheit'." Genau das ist eine strukturelle Lücke – Barrierefreiheit muss als eigenständiger Standard verankert sein, nicht als Nachgedanke.
+Sie schreiben: "In der Schicht 'Oberfläche und Zugang' fehlt der Teilbereich 'Barrierefreiheit'" – das ist der zentrale Punkt. Barrierefreiheit muss als eigenständiger Standard verankert sein, nicht als Nachgedanke. KoliBri liefert genau diesen fehlenden Baustein: 50+ barrierefreie UI-Komponenten (WCAG 2.1, BITV 2.0).
 
-KoliBri liefert diesen fehlenden Baustein: 50+ barrierefreie UI-Komponenten (WCAG 2.1, BITV 2.0), die als technische Grundlage für die Oberflächenschicht dienen. Sie warnen zu Recht vor den Schweizer Fehlern: "Doppel-Arbeiten und fehlende Interoperabilität." KoliBri adressiert das direkt – eine Library für alle Frameworks, keine parallelen Entwicklungen.
+Ihr Vergleich mit der Schweiz ist präzise: "Doppel-Arbeiten und fehlende Interoperabilität" sowie "kein oder wenig Once Only-Prinzip". KoliBri adressiert das direkt – Web Components als W3C-Standard seit 2018 funktionieren in Angular, React, Vue oder ohne Framework. Eine Library für alle, keine parallelen Entwicklungen, 3.000+ wöchentliche npm-Downloads zeigen den Bedarf.
 
-**KoliBri schließt die Lücke in "Oberfläche und Zugang":**
-
-- **Barrierefreiheit als Standard**: WCAG 2.1 eingebaut, 10 Mio. Menschen mit Behinderung profitieren
-- **50+ Komponenten**: Eine Basis für Angular, React, Vue – keine Doppelarbeit
-- **3.000+ Downloads/Woche**: Praxisbeweis aus dem öffentlichen Sektor
-- **Interoperabilität**: Web Components funktionieren überall, keine Silos
-
-Wie sollte Barrierefreiheit in der Schichtarchitektur konkret verankert werden?
+Ihre Warnung "Diese Fehler sollte Deutschland nicht machen" trifft es: 10 Mio. Menschen mit Behinderung brauchen deutschlandweit einheitliche, barrierefreie Lösungen. Wie sollte Barrierefreiheit in der Schichtarchitektur aus Ihrer Sicht konkret verankert werden?
 
 ---
 

@@ -24,18 +24,11 @@
 
 <!-- KoliBri Kommentar: https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/395 -->
 
-Sie listen als IT-Dienstleister konkrete Lücken auf – und erwähnen explizit "Web Components" unter Betrieb/Entwicklung. Genau das ist KoliBri: Eine Web Components Bibliothek mit 50+ barrierefreien UI-Elementen, WCAG 2.1 konform.
+Sie listen als IT-Dienstleister konkrete Lücken auf – und erwähnen explizit "Web Components" unter Betrieb/Entwicklung. Genau das ist KoliBri: Eine Web Components Bibliothek mit 50+ barrierefreien UI-Elementen, WCAG 2.1 konform, BITV 2.0 geprüft.
 
-Die Kombination mit Ihren anderen Vorschlägen passt perfekt: KoliBri ist über npm verfügbar (`npm install @public-ui/components`), testbar mit Playwright, integrierbar in Spring Boot oder .NET. Ihre Forderung nach Formularlösungen (LIP-FMS) ergänzt KoliBri ideal – barrierefreie Inputs, Selects, Textareas sind fertig.
+Ihre Kombination "npm, Playwright, Web Components" passt perfekt: KoliBri ist über npm verfügbar (`npm install @public-ui/components`) mit 3.000+ wöchentlichen Downloads, testbar mit Playwright, integrierbar in "Spring Framework / Boot 3" oder ".NET". Ihre Forderung nach "Formularlösungen (LIP-FMS)" ergänzt KoliBri ideal – barrierefreie Inputs, Selects, Textareas sind fertig.
 
-**KoliBri füllt Ihre Stack-Lücken:**
-
-- **Web Components**: W3C-Standard seit 2018, wie von Ihnen gefordert
-- **npm-verfügbar**: 3.000+ wöchentliche Downloads, sofort in Build-Pipelines integrierbar
-- **Playwright-kompatibel**: Automatisierte Tests für barrierefreie Komponenten
-- **50+ Komponenten**: Formulare, Tabellen, Navigation – WCAG 2.1 konform
-
-Welche Web Components nutzen Sie aktuell in Ihren Projekten?
+Ihr Punkt "Linux als Betriebsplattform unabdingbar" zeigt Ihren Open-Source-Fokus: KoliBri ist EUPL-lizenziert, ITZBund-entwickelt, W3C Web Components Standard seit 2018. 10 Mio. Menschen mit Behinderung in Deutschland brauchen konsistente, barrierefreie Oberflächen. Welche Web Components nutzen Sie aktuell in Ihren Verwaltungsprojekten?
 
 ---
 

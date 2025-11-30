@@ -24,13 +24,18 @@
 
 <!-- KoliBri Kommentar: https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/200 -->
 
-Der Kerngedanke ist präzise: Barrierefreiheit als technische Infrastruktur, nicht als Projekt-Zusatz. Genau das habe ich bei KoliBri umgesetzt – zentral geprüfte Web Components (WCAG 2.1 AAA, Shadow DOM), die React-, Angular-, Vue- oder Legacy-Teams gleich nutzen. Das spart massiv: Teams bauen barrierefreie UIs automatisch, Audits werden kürzer, und die Kosten sinken, weil Prüfung zentral geschieht statt in jedem Projekt aufs Neue.
+Sie schreiben von "Barrierefreiheit per Design" und "digitaler Souveränität" – genau dort setzt KoliBri an. Die Idee: Zentral geprüfte Web Components (WCAG 2.1 AAA, Shadow DOM), die React-, Angular-, Vue- oder Legacy-Teams gleich nutzen können. Das spart massiv: Teams bauen barrierefreie UIs automatisch, Audits werden kürzer, und die Kosten sinken, weil Prüfung zentral geschieht statt in jedem Projekt aufs Neue.
 
-Entscheidend ist Ihre strategische Wirkung-Dimension: KoliBri schafft einen verbindlichen, interoperablen Standard auf UI-Ebene – ohne die Vielfalt bei DBs oder Backends zu beschneiden. Das ist der konkrete Anker, den ein Stack braucht. Gern unterstütze ich einen Pilot: Schauen wir gemeinsam, wie KoliBri sich in Ihre bestehende Tech-Landschaft (Frameworks, CMS, Backend) einwirkt?
+Ihr Punkt zur "Interoperabilität über alle föderalen Ebenen" ist entscheidend: KoliBri basiert auf dem W3C Web Components Standard seit 2018 und funktioniert mit 97%+ Browser-Support ohne Framework-Abhängigkeit. Das bedeutet für Bund, Länder und Kommunen: Dieselben 50+ barrierefreien Komponenten, einmal entwickelt, überall einsetzbar – mit 3.000+ wöchentlichen npm-Downloads bereits produktiv im Einsatz.
+
+"KoliBri gehört in den D-Stack – als Fundament, nicht als Add-on" – diese Vision teile ich. 10 Mio. Menschen mit Behinderung in Deutschland brauchen barrierefreie digitale Verwaltung. Gern unterstütze ich einen Pilot: Schauen wir gemeinsam, wie KoliBri sich in Ihre bestehende Tech-Landschaft einfügt?
 
 ---
 
-> _Mehr Infos: [KoliBri auf GitHub](https://github.com/public-ui/kolibri)_
+> Mehr Infos:
+>
+> - **[Aufnahme von KoliBri in den Deutschland-Stack](https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/200)**
+> - [Repository - Public UI - KoliBri](https://github.com/public-ui/kolibri)
 
 ## Beschreibung
 

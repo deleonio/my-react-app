@@ -24,13 +24,18 @@
 
 <!-- KoliBri Kommentar: https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/398 -->
 
-Ihre acht Erweiterungsfelder sind präzise – bei der Frontend-Dimension liegt die Chance: Ihr VueJS-Frontend wird mächtig, wenn die UI-Bausteine selbst schon standardisiert und barrierefrei sind. Genau das ist KoliBri: Web Components (WCAG 2.1 AAA, Shadow DOM, framework-neutral), die Sie direkt in Vue einbetten, ohne Accessibility-Logik neu zu schreiben. Ihr Styling, Ihre Themes – aber garantierte A11y und Screenreader-Verhalten über alle Module hinweg.
+Sie schreiben von einem "offenen, modularen Master-Frontend auf Basis von VueJS" und "standardisierten UX-Bausteinen" – genau dort setzt KoliBri an. Ihr CIVORA-Frontend wird mächtig, wenn die UI-Bausteine selbst schon standardisiert und barrierefrei sind: 50+ Web Components (WCAG 2.1 AAA, Shadow DOM), die Sie direkt in Vue einbetten, ohne Accessibility-Logik neu zu schreiben.
 
-Das passt methodisch zu Ihren DCAT-AP- und OGC-Standards: Accessibility wird zum technischen Standard statt Projekt-Flickwerk. Das beschleunigt Nachnutzung über Städte und Regionen. Ich skizziere gern einen Integrationspfad für CIVORA (Vue + KoliBri + einheitliches A11y-Audit-Profil). Melden Sie sich, wenn Sie einen Proof-of-Concept testen möchten.
+Ihr Punkt zu "DCAT-AP nativ" und "OGC-APIs" zeigt Ihren Fokus auf europäische Standards. KoliBri basiert auf dem W3C Web Components Standard seit 2018 mit 97%+ Browser-Support – Accessibility wird zum technischen Standard statt Projekt-Flickwerk. Das beschleunigt Nachnutzung über Ihre "70 Smart-City- und Verwaltungsdigitalisierungsprojekte" hinweg.
+
+Besonders relevant für Ihre Vision "offene, föderale und interoperable digitale Infrastruktur": 10 Mio. Menschen mit Behinderung in Deutschland müssen diese urbanen Datenplattformen barrierefrei nutzen können. Ich skizziere gern einen Integrationspfad für CIVORA (Vue + KoliBri + einheitliches A11y-Audit-Profil). Wäre ein Proof-of-Concept für eines Ihrer Dashboards interessant?
 
 ---
 
-> _Mehr Infos: [KoliBri auf GitHub](https://github.com/public-ui/kolibri)_
+> Mehr Infos:
+>
+> - **[Aufnahme von KoliBri in den Deutschland-Stack](https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/200)**
+> - [Repository - Public UI - KoliBri](https://github.com/public-ui/kolibri)
 
 ## Beschreibung
 

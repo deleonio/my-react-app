@@ -24,18 +24,11 @@
 
 <!-- KoliBri Kommentar: https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/134 -->
 
-Sie treffen den Nagel auf den Kopf: "HTML5 JavaScript kann inzwischen sehr viel nativ." Die aufgeführten Frameworks sind "ein Überbau" und "bei kleineren Projekten eher eine Komplikation." Genau das sehe ich auch so.
+Sie schreiben: "HTML5 JavaScript kann inzwischen sehr viel nativ und sehr gut." Die aufgeführten Frameworks "Angular, Flutter, React, NextJS" sind "letztlich ein Überbau über Javascript" und "bei kleineren Projekten eher eine Komplikation." Genau das sehe ich auch so.
 
-Web Components sind die Lösung: Native Browser-Technologie (W3C-Standard seit 2018), kein Framework-Overhead, aber trotzdem wiederverwendbare Komponenten. KoliBri baut auf diesem Prinzip auf: 50+ barrierefreie Komponenten, die mit nativem HTML/JS funktionieren – oder mit Angular/React, falls ein Projekt das nutzt.
+Web Components sind die Lösung: Native Browser-Technologie (W3C-Standard seit 2018 mit 97%+ Support), kein Framework-Overhead, aber trotzdem wiederverwendbare Komponenten. KoliBri baut auf diesem Prinzip auf: `<kol-button>` funktioniert ohne Angular, React oder NextJS – 50+ barrierefreie Komponenten, die mit nativem HTML/JS funktionieren.
 
-**KoliBri für natives Web:**
-
-- **W3C Web Components**: Native Browser-Technologie seit 2018, kein Framework nötig
-- **HTML/JS-basiert**: `<kol-button>` funktioniert ohne Angular, React oder NextJS
-- **50+ Komponenten**: WCAG 2.1 konform, 3.000+ wöchentliche Downloads
-- **Kein Overhead**: Bundle-Größe pro Komponente, nicht das ganze Framework
-
-Haben Sie Erfahrungen mit Web Components? Wäre spannend zu hören.
+Ihre Forderung "unter Zugang Browser bitte hinzufügen: Javascript, html" unterstütze ich: KoliBri liefert WCAG 2.1 konforme Komponenten mit 3.000+ wöchentlichen npm-Downloads, keine Framework-Abhängigkeit, 10 Mio. Menschen mit Behinderung in Deutschland profitieren. Haben Sie Erfahrungen mit Web Components?
 
 ---
 

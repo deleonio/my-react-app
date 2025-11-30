@@ -24,18 +24,11 @@
 
 <!-- KoliBri Kommentar: https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/120 -->
 
-CIVITAS/CORE als "urbane Datenplattform" mit "demokratischer Governance" und "kein Vendor-Lock-in" – das sind genau die Werte, die auch KoliBri antreiben. Ihre Empfehlung "Public Money, Public Code" und die EUPL-Lizenzierung zeigen, dass wir dieselbe Philosophie teilen.
+Sie schreiben: CIVITAS/CORE als "urbane Datenplattform" mit "demokratischer Governance" und "kein Vendor-Lock-in" – das sind genau die Werte, die auch KoliBri antreiben. Ihre Empfehlung "Public Money, Public Code" und die EUPL-Lizenzierung teilen wir vollständig.
 
-Während CIVITAS/CORE den "Daten-Layer" abdeckt, fehlt im Stack ein entsprechender "UI-Layer". KoliBri bietet barrierefreie UI-Komponenten unter EUPL-Lizenz, ebenfalls öffentlich finanziert beim ITZBund. 50+ Komponenten für Dashboards, Formulare, Tabellen – die Bausteine, die CIVITAS/CORE-Frontends brauchen.
+Ihr Punkt "Während CIVITAS/CORE den Daten-Layer abdeckt" zeigt eine Lücke: Im Stack fehlt ein entsprechender "UI-Layer". KoliBri bietet barrierefreie UI-Komponenten unter EUPL-Lizenz, ebenfalls öffentlich finanziert beim ITZBund. 50+ Komponenten für Dashboards, Formulare, Tabellen – die Bausteine, die Ihre "digitale Daseinsvorsorge" und "nutzerfreundlichen Angebote" brauchen.
 
-**KoliBri + CIVITAS/CORE = vollständiger Stack:**
-
-- **Gleiche Philosophie**: Open Source, EUPL, Public Money = Public Code
-- **Komplementär**: Datenplattform (CIVITAS) + UI-Komponenten (KoliBri)
-- **50+ Komponenten**: Tabellen, Charts, Formulare für Daten-Dashboards
-- **Web Components**: Framework-agnostisch, passt zu modularer Architektur
-
-Gibt es bei Civitas Connect bereits UI-Standards für die Frontend-Entwicklung? Eine Abstimmung könnte spannend sein.
+Ihre Vision "Echtzeitdaten (Verkehr, Umwelt, Energie) in bürgerfreundlichen Angeboten" trifft es: KoliBri basiert auf dem W3C Web Components Standard, framework-agnostisch wie Ihre modulare Architektur. 3.000+ wöchentliche npm-Downloads, 10 Mio. Menschen mit Behinderung in Deutschland brauchen barrierefreie Daten-Dashboards. Gibt es bei Civitas Connect bereits UI-Standards für die Frontend-Entwicklung?
 
 ---
 

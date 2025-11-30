@@ -24,18 +24,11 @@
 
 <!-- KoliBri Kommentar: https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/108 -->
 
-Sie treffen einen wunden Punkt: "offene und plattformunabhängige Systeme priorisieren" statt Vendor-Lock-in. Ihre Kritik an der kommunalen Realität – fehlendes Fachpersonal, unbrauchbare SDKs, Docker-Container-Chaos – kenne ich aus vielen Gesprächen.
+Sie schreiben: "Offene und plattformunabhängige Systeme priorisieren, anstatt plattform- und herstellergebundene Systeme zu empfehlen" – das trifft den Kern. Ihre Kritik "wird überhaupt daran gedacht, dass in vielen Verwaltungen gar kein ITler da ist, der mal eben einen Docker-Container aufsetzt" kenne ich aus vielen Gesprächen.
 
-Genau hier setzt KoliBri an: Barrierefreie UI-Komponenten, die ohne DevOps-Team sofort nutzbar sind. Kein Docker-Container nötig, keine komplexe Einrichtung – `npm install @public-ui/components` und los. In 15 Minuten steht die erste barrierefreie Oberfläche. 50+ Komponenten, 3.000+ wöchentliche Downloads, EUPL-lizenziert.
+Ihr Punkt zur "kommunalen Realität" mit "fehlendem Fachpersonal" und "unbrauchbaren SDKs" ist entscheidend: KoliBri setzt genau dort an. Barrierefreie UI-Komponenten, die ohne DevOps-Team sofort nutzbar sind – `npm install @public-ui/components` und los. Kein Docker-Container nötig, keine komplexe Einrichtung. W3C Web Components Standard seit 2018 mit 97%+ Browser-Support, 3.000+ wöchentliche npm-Downloads.
 
-**KoliBri für die kommunale Realität:**
-
-- **Einfach nutzbar**: npm-Installation, 15 Minuten bis zur ersten UI
-- **Kein DevOps-Team nötig**: Web Components im Browser, keine Container-Komplexität
-- **Plattformunabhängig**: W3C-Standard seit 2018, kein Vendor-Lock-in
-- **Zentral gewartet**: ITZBund-Entwicklung, Updates für alle Projekte gleichzeitig
-
-Welche SDKs haben Sie als "unbrauchbar" erlebt? Vielleicht können wir aus den Fehlern lernen.
+Ihre Forderung nach "fertigen, einfach zu integrierenden Lösungen" statt SDKs: KoliBri liefert 50+ barrierefreie Komponenten, ITZBund-entwickelt, EUPL-lizenziert, zentral gewartet. 10 Mio. Menschen mit Behinderung in Deutschland brauchen konsistente Oberflächen auch in kleinen Kommunen. Welche konkreten SDKs haben Sie als "unbrauchbar" erlebt?
 
 ---
 

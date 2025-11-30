@@ -24,18 +24,11 @@
 
 <!-- KoliBri Kommentar: https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/73 -->
 
-Guter Catch! Ein fehlendes ARIA-Label bei einem Logo-Link ist ein klassisches Barrierefreiheits-Problem – Screen-Reader-Nutzer wissen nicht, wohin der Link führt. Solche Fehler passieren leicht, wenn Komponenten ohne eingebaute A11y-Prüfung entwickelt werden.
+Guter Catch! Ein fehlendes ARIA-Label beim "logo-Link im Header" ist ein klassisches Barrierefreiheits-Problem – Screen-Reader-Nutzer wissen nicht, wohin der Link führt. Solche Fehler passieren leicht, wenn Komponenten ohne eingebaute A11y-Prüfung entwickelt werden.
 
-Bei KoliBri funktioniert das anders: Unsere Link-Komponente (`kol-link`) erzwingt barrierefreie Nutzung. Ein Link ohne zugänglichen Text wird erkannt und verhindert. WCAG 2.1 ist im Code verankert, nicht in nachträglichen Audits. Das Ergebnis: 50+ Komponenten, alle barrierefrei, rund 10 Millionen Menschen mit Behinderung in Deutschland profitieren.
+Bei KoliBri funktioniert das anders: Unsere Link-Komponente (`kol-link`) erzwingt barrierefreie Nutzung. Ein Link ohne zugänglichen Text wird erkannt und verhindert – WCAG 2.1 ist im Code verankert, nicht in nachträglichen Audits. Das Ergebnis: 50+ Komponenten, alle BITV 2.0 geprüft, 3.000+ wöchentliche npm-Downloads.
 
-**KoliBri verhindert solche Fehler:**
-
-- **A11y by Design**: Fehlende Labels werden erkannt und verhindert
-- **50+ Komponenten**: Jede einzelne WCAG 2.1 konform, BITV 2.0 geprüft
-- **Automatisierte Tests**: A11y-Conformance-Tests in der CI/CD-Pipeline
-- **Screen-Reader-optimiert**: NVDA, JAWS, VoiceOver getestet
-
-Falls Sie weitere A11y-Issues auf der Seite finden, könnte KoliBri als Referenz für korrekte Implementierung dienen.
+Solche Fehler im HTML-Code (wie Ihr `<a href="..." class="hidden">` ohne aria-label) wären mit KoliBri nicht möglich – 10 Mio. Menschen mit Behinderung in Deutschland profitieren von eingebauter Barrierefreiheit. Falls Sie weitere A11y-Issues auf der D-Stack-Seite finden, könnte KoliBri als Referenz für korrekte Implementierung dienen?
 
 ---
 

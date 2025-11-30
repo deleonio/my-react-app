@@ -26,14 +26,9 @@
 
 Sie schreiben: "Flexibilität und schlanke Architektur" statt Angular-Komplexität, "Einfachheit, Leichtgewichtigkeit und Modernität" für staatliche Digitalprojekte. Da bin ich ganz bei Ihnen – aber auch React, Vue oder Svelte bringen erheblichen Framework-Overhead mit.
 
-KoliBri geht einen Schritt weiter: Basierend auf dem W3C Web Components Standard nutzt es native Browser-APIs ohne Framework-Runtime. Kein Virtual DOM wie React, kein Reactivity-System wie Vue, keine Compiler-Magie wie Svelte. Nur Web-Standards. Eine Button-Komponente: ~5KB. Das ist wirklich leichtgewichtig.
+Ihr Punkt "Angular ist zwar moderner geworden, aber Frameworks wie React oder Vue vermitteln stärker den Gedanken von Flexibilität" trifft es. KoliBri geht einen Schritt weiter: Basierend auf dem W3C Web Components Standard seit 2018 nutzt es native Browser-APIs ohne Framework-Runtime. Kein Virtual DOM wie React, kein Reactivity-System wie Vue, keine Compiler-Magie wie Svelte. Nur Web-Standards, ~5KB pro Komponente.
 
-**KoliBri für echte Leichtgewichtigkeit:**
-
-- **W3C-Standard seit 2018**: Native Browser-API, keine Framework-Runtime
-- **Maximale Flexibilität**: Funktioniert mit jedem Framework oder ohne
-- **50+ Komponenten**: WCAG 2.1 konform, ~5KB pro Komponente
-- **3.000+ wöchentliche Downloads**: Bewährt in der Praxis
+Ihre Beobachtung "deutschland-stack.gov.de wirkt modern, leichtgewichtig" zeigt den Bedarf: KoliBri liefert 50+ WCAG 2.1 konforme Komponenten mit 3.000+ wöchentlichen npm-Downloads, 10 Mio. Menschen mit Behinderung in Deutschland profitieren. Maximale Flexibilität: funktioniert mit jedem Framework oder ganz ohne. Könnten Web Components das "leichtgewichtige Zeichen" sein, das Sie sich wünschen?
 
 ---
 

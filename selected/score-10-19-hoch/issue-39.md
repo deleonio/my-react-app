@@ -25,17 +25,11 @@
 
 <!-- KoliBri Kommentar: https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/39 -->
 
-Ihre Vision eines "lebendigen Entwicklungsmodells" beschreibt genau das, was wir mit KoliBri praktizieren. Der Satz "ein stabiler Kern aus geprüfter Software, offenen Schnittstellen und europäischen Standards" – das hätten wir nicht besser formulieren können.
+Sie schreiben: "Ein stabiler Kern aus geprüfter Software, offenen Schnittstellen und europäischen Standards, auf dem alle anderen aufbauen können" – das hätten wir bei KoliBri nicht besser formulieren können. Ihre Vision eines "lebendigen, gemeinsamen Entwicklungsmodells" beschreibt genau unsere Praxis.
 
-KoliBri ist beim ITZBund entstanden, öffentlich finanziert, unter EUPL-Lizenz frei verfügbar. Heute nutzen es Bundesbehörden, Landesverwaltungen und Kommunen. Über 50 barrierefreie UI-Komponenten, einmal entwickelt, überall einsetzbar. Ihre Forderung "kostenfreie Nachnutzung für den Mittelstand" – genau das ermöglicht KoliBri. Ein Dienstleister kann dieselben Komponenten nutzen wie das ITZBund selbst.
+Ihr Punkt zur "staatlichen Basisfinanzierung und Governance" trifft es: KoliBri ist beim ITZBund entstanden, öffentlich finanziert, unter EUPL-Lizenz frei verfügbar. Heute nutzen es Bundesbehörden, Landesverwaltungen und Kommunen mit 3.000+ wöchentlichen npm-Downloads. 50+ barrierefreie UI-Komponenten, einmal entwickelt, überall einsetzbar – basierend auf dem W3C Web Components Standard seit 2018, keine Framework-Abhängigkeit.
 
-**KoliBri im Ökosystem-Modell:**
-
-- **Staatliche Basisfinanzierung**: ITZBund-Entwicklung, EUPL-lizenziert, 3.000+ wöchentliche npm-Downloads
-- **Offene Schnittstellen**: Web Components (W3C-Standard seit 2018), keine Framework-Abhängigkeit
-- **KMU-Teilhabe**: Gleiche Komponenten für Verwaltung, Bildung, Wirtschaft – kostenfrei
-
-Falls Sie konkrete Nachnutzungsbeispiele sehen möchten, stehe ich gern für einen Austausch bereit.
+Ihre Forderung "kostenfrei oder günstig zur Verfügung gestellt" für den Mittelstand – genau das ermöglicht KoliBri. Ein Dienstleister kann dieselben Komponenten nutzen wie das ITZBund selbst, 10 Mio. Menschen mit Behinderung in Deutschland profitieren von einheitlicher Barrierefreiheit. Welche konkreten Branchenanforderungen (Maschinenbau, Medizintechnik) sehen Sie für Stack-Editionen?
 
 ---
 

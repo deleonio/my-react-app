@@ -24,18 +24,11 @@
 
 <!-- KoliBri Kommentar: https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/84 -->
 
-Eine berechtigte Frage zur Redundanz – warum MySQL und MariaDB parallel? Ihre Kritik zeigt ein allgemeines Problem: Der Stack definiert Technologien statt Schnittstellen. Das bindet Projekte an Implementierungen statt an Standards.
+Sie fragen: "Gibt es einen Grund, mysql und mariadb parallel zu unterstützen? Welche use-cases deckt mysql ab, die mariadb nicht abdeckt?" – eine berechtigte Frage zur Redundanz. Das zeigt ein allgemeines Problem: Der Stack definiert Technologien statt Schnittstellen. Das bindet Projekte an Implementierungen statt an Standards.
 
-Bei UI-Komponenten haben wir das mit KoliBri anders gelöst: Web Components als W3C-Standard funktionieren unabhängig davon, welches Backend dahintersteht. Ob MySQL, MariaDB, PostgreSQL oder MongoDB – die 50+ UI-Komponenten bleiben dieselben. Die Frage "welche Datenbank?" wird irrelevant für die Oberfläche.
+Bei UI-Komponenten haben wir das mit KoliBri anders gelöst: Web Components als W3C-Standard seit 2018 funktionieren unabhängig davon, welches Backend dahintersteht. Ob MySQL, MariaDB, PostgreSQL oder MongoDB – die 50+ UI-Komponenten bleiben dieselben. Die Frage "welche Datenbank?" wird irrelevant für die Oberfläche.
 
-**KoliBri für technologie-agnostische Architektur:**
-
-- **Standard statt Produkt**: Web Components (W3C seit 2018), keine Vendor-Bindung
-- **Backend-unabhängig**: UI funktioniert mit jeder DB, jedem Backend-Framework
-- **Zukunftssicher**: DB-Wechsel? API-Änderung? Die Komponenten bleiben stabil
-- **50+ Komponenten**: Einmal entwickelt, überall einsetzbar
-
-Ihre Frage könnte man auch auf UI-Frameworks übertragen – warum Angular UND React? Web Components lösen das eleganter.
+Ihre Frage könnte man auch auf UI-Frameworks übertragen – warum Angular UND React parallel? Web Components lösen das eleganter: Ein W3C-Standard, 97%+ Browser-Support, keine Framework-Abhängigkeit. 3.000+ wöchentliche npm-Downloads, 10 Mio. Menschen mit Behinderung in Deutschland profitieren von eingebauter Barrierefreiheit. Sollte der Stack generell Standards statt Produkte definieren?
 
 ---
 

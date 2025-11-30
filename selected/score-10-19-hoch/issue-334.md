@@ -24,18 +24,11 @@
 
 <!-- KoliBri Kommentar: https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/334 -->
 
-Die Kritik des IT-Referats München trifft einen wichtigen Punkt: "Was ist ein Standard und was eine Technologie?" CSS als Standard, TypeScript als Technologie, Angular als Framework – das ist inkonsistent. Die Frage "mit welcher Intention" bestimmte Technologien aufgeführt sind, bleibt offen.
+Die Kritik des IT-Referats München trifft einen wichtigen Punkt: "Was ist ein Standard und was eine Technologie?" CSS als Standard, TypeScript als Technologie, Angular als Framework – "mit welcher Intention manche Technologien oder Standards aufgeführt sind" bleibt unklar.
 
-KoliBri bietet einen klaren Ansatz: Web Components (W3C-Standard seit 2018) als UI-Schicht, die unabhängig von TypeScript, JavaScript, Angular oder React funktioniert. 50+ Komponenten, eindeutig kategorisiert: Standard für Barrierefreiheit (WCAG 2.1), implementiert als wiederverwendbare Bausteine.
+Ihr Beispiel "HTML fehlt, CSS ist drin" zeigt die Inkonsistenz. KoliBri bietet einen klaren Ansatz: Web Components (W3C-Standard seit 2018) als UI-Schicht, eindeutig kategorisiert. Funktioniert mit TypeScript, JavaScript, Angular oder React – 50+ Komponenten als messbare Kriterien: WCAG 2.1 und BITV 2.0 statt vager "Empfehlungen".
 
-**KoliBri für klare Einordnung:**
-
-- **Klare Kategorie**: Web Components als W3C-Standard, nicht Framework-Mischung
-- **50+ Komponenten**: Funktioniert mit TypeScript, JavaScript, Angular, React, Vue
-- **Messbare Kriterien**: WCAG 2.1, BITV 2.0 statt vager "Empfehlungen"
-- **3.000+ Downloads/Woche**: Nachfrage belegt Praxistauglichkeit
-
-Wie würde das IT-Referat München die Standard/Technologie-Trennung konkret lösen?
+Ihre Forderung nach nachvollziehbarer Einordnung ist berechtigt: KoliBri zeigt 3.000+ wöchentliche npm-Downloads als Praxisbeleg, 10 Mio. Menschen mit Behinderung in Deutschland als Zielgruppe, EUPL-Lizenz als Governance-Standard. Wie würde das IT-Referat München die Standard/Technologie-Trennung konkret lösen?
 
 ---
 

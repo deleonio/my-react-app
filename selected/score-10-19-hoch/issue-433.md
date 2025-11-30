@@ -24,21 +24,11 @@
 
 <!-- KoliBri Kommentar: https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/433 -->
 
-Ihr Feedback trifft einen Nerv: "Soziale Nachhaltigkeit" wird in der Softwareentwicklung oft vergessen. Als wir KoliBri gestartet haben, stand genau diese Frage im Raum – wie bauen wir Komponenten, die niemanden ausschließen?
+Sie schreiben: "Ökologische und soziale Nachhaltigkeit fehlen komplett" – das trifft einen Nerv. Unter Ihren sozialen Kriterien nennen Sie explizit "Barrierefreiheit". Genau dort setzt KoliBri an: 50+ WCAG 2.1 konforme Komponenten, bei denen Barrierefreiheit von Anfang an eingebaut ist, nicht nachträglich draufgeschraubt. 10 Mio. Menschen mit Behinderung in Deutschland profitieren direkt.
 
-Die Antwort war: Barrierefreiheit von Anfang an einbauen, nicht nachträglich draufschrauben. Heute umfasst KoliBri über 50 WCAG 2.1 konforme Komponenten – jeder Button, jedes Formular, jede Tabelle. Für Menschen mit Sehbehinderungen, motorischen Einschränkungen oder kognitiven Beeinträchtigungen ist das der Unterschied zwischen "kann ich nutzen" und "bin ich ausgeschlossen". In Deutschland betrifft das rund 10 Millionen Menschen mit anerkannter Schwerbehinderung – bei einer alternden Gesellschaft steigt diese Zahl weiter.
+Ihre ökologischen Kriterien treffen KoliBri präzise: "Software muss modular aufgebaut sein" – KoliBri nutzt Web Components, Projekte laden nur die Komponenten, die sie brauchen. "Software muss auf mindestens 5-10 Jahre alter Hardware laufen" – Web Components sind seit 2018 W3C-Standard mit 97%+ Browser-Support, kein Framework-Overhead. "Energieverbrauch muss messbar sein" – KoliBri ist Open Source unter EUPL-Lizenz, Code transparent.
 
-Zu Ihren ökologischen Kriterien: "Software muss modular aufgebaut sein" – KoliBri nutzt Web Components (W3C-Standard). Projekte laden nur die Komponenten, die sie brauchen. Ein typisches Formular mit 5 Komponenten lädt nur diese 5, nicht das gesamte Framework. Kein Overhead, keine unnötigen Abhängigkeiten. Ihr Punkt "Software muss auf mindestens 5-10 Jahre alter Hardware laufen" passt ebenfalls: Web Components sind seit 2018 in allen Browsern nativ unterstützt – ein stabiler Standard, keine kurzlebige Framework-Mode. Das reduziert technische Schulden und verlängert die Lebensdauer von Anwendungen.
-
-**KoliBri erfüllt Ihre Nachhaltigkeitskriterien:**
-
-- **Soziale Nachhaltigkeit**: 50+ WCAG 2.1 konforme Komponenten, 10 Mio. Menschen mit Behinderung in DE profitieren
-- **Modular**: Tree-Shaking – nur genutzte Komponenten werden geladen
-- **Langlebig**: Web Components (W3C-Standard seit 2018), keine Framework-Abhängigkeit
-- **Cloud-unabhängig**: Reine Frontend-Library, läuft komplett lokal
-- **Open Source**: Energieverbrauch messbar, Code transparent (EUPL-1.2 Lizenz)
-
-Wäre es denkbar, dass wir den Energieverbrauch von KoliBri messen könnten? Das wäre für uns wertvolles Feedback – und könnte als Referenz für andere UI-Libraries dienen.
+Ihr Punkt "Cloud-Unabhängigkeit" und "lokal nutzbar" passt ebenfalls: KoliBri ist eine reine Frontend-Library, läuft komplett lokal, 3.000+ wöchentliche npm-Downloads. Wäre es denkbar, dass wir den Energieverbrauch von KoliBri gemeinsam messen? Eure Tools-Landschaft könnte als Referenz für UI-Libraries dienen.
 
 ---
 

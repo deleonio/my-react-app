@@ -24,21 +24,18 @@
 
 <!-- KoliBri Kommentar: https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/161 -->
 
-Ihre "Dokumentation des Grauens" trifft ins Schwarze: "Jeder Dienstleister nutzt seinen Lieblingsstack, einheitlich wird dadurch gar nichts." Genau das ist das Problem – und genau hier kann KoliBri ein Standardanker sein. Statt zwei UI-Libraries für Angular und React gibt es eine: Web Components, die in beiden Frameworks (und ohne Framework) laufen. Barrierefreiheit ist eingebaut, Updates für neue BITV-Anforderungen erreichen alle Projekte gleichzeitig.
+Sie schreiben: "Jeder Dienstleister nutzt seinen Lieblingsstack, einheitlich wird dadurch gar nichts" – das trifft ins Schwarze. Ihre "Dokumentation des Grauens" mit "zwei sehr unterschiedlichen Web-Frameworks" für die es "dann auch wieder zwei UI Libraries geben muss" beschreibt genau das Problem, das KoliBri löst: Eine UI-Bibliothek für alle Frameworks.
 
-Sie fordern zu Recht: "Ein Techstack soll Entscheidungen abnehmen." KoliBri liefert das auf UI-Ebene: Design Tokens, API-Verträge, UX-Standards – die Frage "wie sieht ein Formular aus" ist beantwortet. Backend-Freiheit bleibt, aber die Oberfläche verhält sich überall identisch.
+Ihr Punkt "Ein Techstack soll Entscheidungen abnehmen" ist entscheidend: KoliBri basiert auf dem W3C Web Components Standard und funktioniert mit React, Angular, Vue oder ganz ohne Framework. Die Frage "wie sieht ein Formular aus" ist beantwortet – 50+ barrierefreie Komponenten, WCAG 2.1 konform, BITV 2.0 geprüft. Backend-Freiheit bleibt, aber die Oberfläche verhält sich überall identisch.
 
-**Warum KoliBri?**
-
-- **Eine Library für alle Frameworks** – React, Angular, Vue oder Vanilla JS nutzen dieselben Komponenten
-- **Barrierefreiheit garantiert** – WCAG 2.1 AAA & BITV 2.0 sind eingebaut, nicht nachgerüstet
-- **Zentrale Updates** – Änderungen erreichen alle Projekte gleichzeitig, keine Doppelentwicklung
-
-Um diese Vereinheitlichung systematisch umzusetzen, habe ich einen Antrag gestellt: **[Aufnahme von KoliBri in den Deutschland-Stack](https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/200)**.
+Die aktuelle Realität – "alle existierenden Projekte als stack-konform benennen" – muss sich ändern. KoliBri liefert zentrale Updates für alle Projekte gleichzeitig, keine Doppelentwicklung, 3.000+ wöchentliche npm-Downloads zeigen den Bedarf. 10 Mio. Menschen mit Behinderung in Deutschland brauchen konsistente, barrierefreie Oberflächen. Wie sähe ein vereinheitlichter UI-Layer für Ihren Stack aus?
 
 ---
 
-> _Mehr Infos: [Public UI - KoliBri](https://github.com/public-ui/kolibri)_
+> Mehr Infos:
+>
+> - **[Aufnahme von KoliBri in den Deutschland-Stack](https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/200)**
+> - [Repository - Public UI - KoliBri](https://github.com/public-ui/kolibri)
 
 ## Beschreibung
 

@@ -24,18 +24,11 @@
 
 <!-- KoliBri Kommentar: https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/74 -->
 
-SmartCredentials als "Identity-Layer" ist ein spannender Vorschlag – die Idee einer "einheitlichen Credential-Abstraktion" für den Stack löst ein echtes Problem. Was SmartCredentials für Authentifizierung macht, leistet KoliBri auf der UI-Ebene: standardisierte, wiederverwendbare Bausteine.
+Sie schreiben: SmartCredentials als "einheitliche Schnittstelle für Identität, Authentifizierung und Autorisierung" mit "einheitlicher Credential-Abstraktion" – das löst ein echtes Problem auf Backend-Ebene. Was SmartCredentials für Authentifizierung macht, leistet KoliBri auf der UI-Ebene: standardisierte, wiederverwendbare Bausteine.
 
-Ihre Einsatzfelder "Bürger- oder Schüler-App mit eID-basierter Anmeldung" brauchen nicht nur Backend-SDKs, sondern auch barrierefreie Oberflächen. KoliBri liefert die UI-Bausteine: Login-Formulare, Inputs, Buttons – alle WCAG 2.1 konform, für 10 Millionen Menschen mit Behinderung in Deutschland zugänglich.
+Ihre Einsatzfelder "Bürger- oder Schüler-App mit eID-basierter Anmeldung" und "Nutzerverwaltungen" brauchen nicht nur Backend-SDKs, sondern auch barrierefreie Oberflächen. KoliBri liefert die UI-Bausteine: Login-Formulare, Inputs, Buttons – alle WCAG 2.1 konform, 50+ Komponenten, 3.000+ wöchentliche npm-Downloads.
 
-**KoliBri als UI-Layer zu SmartCredentials:**
-
-- **Komplementär**: Identity-SDK + UI-Komponenten = vollständige Auth-Flows
-- **Gleiche Philosophie**: Open Source, modular, EUPL vs. Apache 2.0
-- **50+ Komponenten**: Formulare, Inputs, Buttons für Login/Registrierung
-- **Framework-agnostisch**: Web Components für Android-WebViews oder Web-Apps
-
-Gibt es bei SmartCredentials bereits UI-Referenzen? Eine Integration mit KoliBri könnte interessant sein.
+Ihre Philosophie "Apache 2.0 lizenziert, vollständig offen" teilen wir: KoliBri ist EUPL-lizenziert, ITZBund-entwickelt. 10 Mio. Menschen mit Behinderung in Deutschland brauchen barrierefreie Auth-Flows. Gibt es bei SmartCredentials bereits UI-Referenzen? Identity-SDK + KoliBri-Komponenten könnten vollständige, barrierefreie Auth-Flows ermöglichen.
 
 ---
 

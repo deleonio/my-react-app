@@ -24,18 +24,11 @@
 
 <!-- KoliBri Kommentar: https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/124 -->
 
-Ihre Priorisierung gefällt mir: "Nicht die Auswahl der richtigen Programmiersprache oder des Frameworks ist interessant, sondern die richtige Zuordnung." Das ist exakt die Philosophie hinter KoliBri – wir liefern UI-Komponenten als Web Components, egal ob Sie Phoenix/Elixir, Java oder Python nutzen.
+Sie schreiben: "Nicht die Auswahl der richtigen Programmiersprache oder des Frameworks ist interessant, sondern die richtige Zuordnung." Das ist exakt die Philosophie hinter KoliBri – wir liefern UI-Komponenten als Web Components, egal ob Sie "Phoenix/Elixir", Java oder Python nutzen.
 
-Interessant, dass Sie Phoenix/Elixir empfehlen und explizit "bitte nicht Java oder .NET" schreiben. KoliBri ist agnostisch: Die 50+ Komponenten funktionieren mit jedem Backend, das HTML ausliefert. Die Paradigmen-Wahl (prozedural, funktional, OO) bleibt bei Ihnen – die UI-Schicht ist davon entkoppelt.
+Ihr Punkt "bitte nicht Java oder .NET" bei Priorität 3 und 4 zeigt Ihre Präferenz für Paradigmen-Freiheit. KoliBri ist agnostisch: Die 50+ Komponenten funktionieren mit jedem Backend, das HTML ausliefert – W3C Web Components Standard seit 2018. Die Paradigmen-Wahl (prozedural, funktional, OO) bleibt bei Ihnen, die UI-Schicht ist davon entkoppelt.
 
-**KoliBri für Paradigmen-Freiheit:**
-
-- **Backend-agnostisch**: Phoenix, Elixir, Java, Python – was immer Sie wählen
-- **50+ Komponenten**: Web Components (W3C seit 2018), keine Framework-Bindung
-- **WCAG 2.1 konform**: 10 Mio. Menschen mit Behinderung in DE profitieren
-- **Fehlertoleranz**: Shadow DOM isoliert Komponenten, keine CSS-Konflikte
-
-Ihre "Do fun things with big, loud worker-bees"-Architektur klingt spannend – wie setzen Sie das konkret um?
+Ihre "Fehlertoleranz"-Priorität passt zu KoliBri: Shadow DOM isoliert Komponenten, keine CSS-Konflikte, WCAG 2.1 konform für 10 Mio. Menschen mit Behinderung in Deutschland, 3.000+ wöchentliche npm-Downloads. Ihre "Do fun things with big, loud worker-bees"-Architektur klingt spannend – wie setzen Sie das in Ihren Projekten konkret um?
 
 ---
 

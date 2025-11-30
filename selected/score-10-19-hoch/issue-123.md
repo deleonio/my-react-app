@@ -24,18 +24,11 @@
 
 <!-- KoliBri Kommentar: https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/123 -->
 
-Sie fordern "Vorgabe XHTML/CSS/JavaScript, fertig (wirklich freie Standards)" und kritisieren die Abhängigkeit von Google (Angular, Flutter) und Meta (React). Genau das ist der richtige Ansatz – und genau hier setzt KoliBri an.
+Sie schreiben: "Vorgabe XHTML/CSS/JavaScript, fertig (wirklich freie Standards)" und kritisieren "Angular und Flutter => google, während React aus dem Hause Facebook kommt". Ihre Warnung "Soviel zur Nichtbindung" trifft genau den Punkt.
 
-Web Components sind dieser freie Standard: W3C-spezifiziert, seit 2018 in allen Browsern nativ, kein Konzern dahinter. KoliBri baut auf diesem Standard auf – 50+ barrierefreie Komponenten, die mit Angular, React oder ganz ohne Framework laufen. Die Wahl bleibt frei, aber die Barrierefreiheit für 10 Millionen Menschen mit Behinderung in Deutschland ist garantiert.
+Web Components sind dieser freie Standard: W3C-spezifiziert, seit 2018 in allen Browsern nativ mit 97%+ Support, kein Konzern dahinter. KoliBri baut auf diesem Standard auf – 50+ barrierefreie Komponenten, die mit Angular, React oder ganz ohne Framework laufen. Die Wahl bleibt frei, aber die Barrierefreiheit für 10 Mio. Menschen mit Behinderung in Deutschland ist garantiert, WCAG 2.1 konform, 3.000+ wöchentliche npm-Downloads.
 
-**KoliBri für echte Web-Standards:**
-
-- **W3C-konform**: Web Components seit 2018 in allen Browsern nativ
-- **Keine Konzern-Bindung**: Kein Google, kein Meta, keine Vendor-Abhängigkeit
-- **50+ Komponenten**: WCAG 2.1 konform, 3.000+ wöchentliche Downloads
-- **Framework-frei nutzbar**: Vanilla JS, oder mit Angular/React/Vue wenn gewünscht
-
-Ihre Kritik an SOAP und XML-Lock-in ist übrigens auch berechtigt – ähnliche Probleme sehen wir bei UI-Frameworks.
+Ihre Kritik "Es muss jedes der Technologiesysteme auf der Landkarte geprüft werden, sonst endet es wieder in der proprietären Abhängigkeit" ist berechtigt. KoliBri ist EUPL-lizenziert, ITZBund-entwickelt – keine Konzern-Bindung, volle Souveränität. Sehen Sie Web Components als den freien Standard, den der Stack braucht?
 
 ---
 
