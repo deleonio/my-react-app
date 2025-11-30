@@ -10,7 +10,8 @@
 		"lint": "eslint .",
 		"preview": "vite preview",
 		"test:e2e": "playwright test",
-		"update": "ncu -u"
+		"update": "ncu -u",
+		"fetch:issue": "node scripts/fetch-issue.js"
 	},
 	"dependencies": {
 		"react": "19.2.0",
