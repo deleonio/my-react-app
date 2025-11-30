@@ -22,6 +22,28 @@
 **Diskussion gesperrt:** Nein
 **Schweregrad:** Keine
 
+<!-- KoliBri Kommentar: https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/74 -->
+
+SmartCredentials als "Identity-Layer" ist ein spannender Vorschlag – die Idee einer "einheitlichen Credential-Abstraktion" für den Stack löst ein echtes Problem. Was SmartCredentials für Authentifizierung macht, leistet KoliBri auf der UI-Ebene: standardisierte, wiederverwendbare Bausteine.
+
+Ihre Einsatzfelder "Bürger- oder Schüler-App mit eID-basierter Anmeldung" brauchen nicht nur Backend-SDKs, sondern auch barrierefreie Oberflächen. KoliBri liefert die UI-Bausteine: Login-Formulare, Inputs, Buttons – alle WCAG 2.1 konform, für 10 Millionen Menschen mit Behinderung in Deutschland zugänglich.
+
+**KoliBri als UI-Layer zu SmartCredentials:**
+
+- **Komplementär**: Identity-SDK + UI-Komponenten = vollständige Auth-Flows
+- **Gleiche Philosophie**: Open Source, modular, EUPL vs. Apache 2.0
+- **50+ Komponenten**: Formulare, Inputs, Buttons für Login/Registrierung
+- **Framework-agnostisch**: Web Components für Android-WebViews oder Web-Apps
+
+Gibt es bei SmartCredentials bereits UI-Referenzen? Eine Integration mit KoliBri könnte interessant sein.
+
+---
+
+> Mehr Infos:
+>
+> - **[Aufnahme von KoliBri in den Deutschland-Stack](https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/200)**
+> - [Repository - Public UI - KoliBri](https://github.com/public-ui/kolibri)
+
 ## Beschreibung
 
 **Feedback:** <br>Hallo zusammen,

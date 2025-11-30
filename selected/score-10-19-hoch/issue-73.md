@@ -22,6 +22,28 @@
 **Diskussion gesperrt:** Nein
 **Schweregrad:** Keine
 
+<!-- KoliBri Kommentar: https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/73 -->
+
+Guter Catch! Ein fehlendes ARIA-Label bei einem Logo-Link ist ein klassisches Barrierefreiheits-Problem – Screen-Reader-Nutzer wissen nicht, wohin der Link führt. Solche Fehler passieren leicht, wenn Komponenten ohne eingebaute A11y-Prüfung entwickelt werden.
+
+Bei KoliBri funktioniert das anders: Unsere Link-Komponente (`kol-link`) erzwingt barrierefreie Nutzung. Ein Link ohne zugänglichen Text wird erkannt und verhindert. WCAG 2.1 ist im Code verankert, nicht in nachträglichen Audits. Das Ergebnis: 50+ Komponenten, alle barrierefrei, rund 10 Millionen Menschen mit Behinderung in Deutschland profitieren.
+
+**KoliBri verhindert solche Fehler:**
+
+- **A11y by Design**: Fehlende Labels werden erkannt und verhindert
+- **50+ Komponenten**: Jede einzelne WCAG 2.1 konform, BITV 2.0 geprüft
+- **Automatisierte Tests**: A11y-Conformance-Tests in der CI/CD-Pipeline
+- **Screen-Reader-optimiert**: NVDA, JAWS, VoiceOver getestet
+
+Falls Sie weitere A11y-Issues auf der Seite finden, könnte KoliBri als Referenz für korrekte Implementierung dienen.
+
+---
+
+> Mehr Infos:
+>
+> - **[Aufnahme von KoliBri in den Deutschland-Stack](https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/200)**
+> - [Repository - Public UI - KoliBri](https://github.com/public-ui/kolibri)
+
 ## Beschreibung
 
 Der "logo"-Link im Header, rechts neben dem Suchfeld enthält kein ARIA-Label.

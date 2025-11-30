@@ -22,6 +22,28 @@
 **Diskussion gesperrt:** Nein
 **Schweregrad:** Keine
 
+<!-- KoliBri Kommentar: https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/367 -->
+
+Ihr Punkt "semantische Interoperabilität, auch mit Legacy-Systemen durch Abstraktions-Layer" ist zentral. Und unter "Kriterien" fordern Sie zu Recht "Berücksichtigung von Nachhaltigkeitsaspekten" und "Maschinen-lesbare Regelsysteme".
+
+KoliBri liefert einen solchen Abstraktions-Layer für die UI-Schicht: Web Components als semantisch klare, interoperable Bausteine. 50+ Komponenten, die mit Legacy-Systemen und modernen Frameworks gleichermaßen funktionieren. Die WCAG 2.1 Konformität ist eine maschinenlesbare Regel – automatisiert prüfbar, keine manuellen Audits nötig.
+
+**KoliBri für Ihre Innovationskriterien:**
+
+- **Semantische Interoperabilität**: Web Components als standardisierte UI-Schnittstelle
+- **Legacy-kompatibel**: 50+ Komponenten für alte und neue Systeme gleichermaßen
+- **Nachhaltig**: Open Source, EUPL-lizenziert, reduziert Doppelentwicklung
+- **Maschinen-prüfbar**: WCAG 2.1 automatisiert testbar (axe, Pa11y)
+
+Welche Nachhaltigkeitsaspekte sind für Sie am wichtigsten?
+
+---
+
+> Mehr Infos:
+>
+> - **[Aufnahme von KoliBri in den Deutschland-Stack](https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/200)**
+> - [Repository - Public UI - KoliBri](https://github.com/public-ui/kolibri)
+
 ## Beschreibung
 
 **Feedback:** <br>II. Welche Innovationen sollten im Stack enthalten sein, um die digitale Transformation erfolgreich umzusetzen?

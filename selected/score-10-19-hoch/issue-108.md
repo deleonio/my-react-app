@@ -22,6 +22,28 @@
 **Diskussion gesperrt:** Nein
 **Schweregrad:** Keine
 
+<!-- KoliBri Kommentar: https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/108 -->
+
+Sie treffen einen wunden Punkt: "offene und plattformunabhängige Systeme priorisieren" statt Vendor-Lock-in. Ihre Kritik an der kommunalen Realität – fehlendes Fachpersonal, unbrauchbare SDKs, Docker-Container-Chaos – kenne ich aus vielen Gesprächen.
+
+Genau hier setzt KoliBri an: Barrierefreie UI-Komponenten, die ohne DevOps-Team sofort nutzbar sind. Kein Docker-Container nötig, keine komplexe Einrichtung – `npm install @public-ui/components` und los. In 15 Minuten steht die erste barrierefreie Oberfläche. 50+ Komponenten, 3.000+ wöchentliche Downloads, EUPL-lizenziert.
+
+**KoliBri für die kommunale Realität:**
+
+- **Einfach nutzbar**: npm-Installation, 15 Minuten bis zur ersten UI
+- **Kein DevOps-Team nötig**: Web Components im Browser, keine Container-Komplexität
+- **Plattformunabhängig**: W3C-Standard seit 2018, kein Vendor-Lock-in
+- **Zentral gewartet**: ITZBund-Entwicklung, Updates für alle Projekte gleichzeitig
+
+Welche SDKs haben Sie als "unbrauchbar" erlebt? Vielleicht können wir aus den Fehlern lernen.
+
+---
+
+> Mehr Infos:
+>
+> - **[Aufnahme von KoliBri in den Deutschland-Stack](https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/200)**
+> - [Repository - Public UI - KoliBri](https://github.com/public-ui/kolibri)
+
 ## Beschreibung
 
 Vielen Dank für die Möglichkeit Feedback zum Entwurf des Deutschland-Stacks zu geben. Grundsätzlich ist die Initiative zur Schaffung einheitlicher Technologiestandards für die öffentliche Verwaltung sehr zu begrüßen. Der vorliegende Entwurf wirft jedoch aus praktischer Sicht einige kritische Fragen auf, die ich im Folgenden detailliert ausführen möchte.

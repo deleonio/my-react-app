@@ -23,6 +23,27 @@
 **Schweregrad:** Keine
 **Geschlossen:** 3. November 2025 um 16:04 von Matthias Burgfried
 
+<!-- KoliBri Kommentar: https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/39 -->
+
+Ihre Vision eines "lebendigen Entwicklungsmodells" beschreibt genau das, was wir mit KoliBri praktizieren. Der Satz "ein stabiler Kern aus geprüfter Software, offenen Schnittstellen und europäischen Standards" – das hätten wir nicht besser formulieren können.
+
+KoliBri ist beim ITZBund entstanden, öffentlich finanziert, unter EUPL-Lizenz frei verfügbar. Heute nutzen es Bundesbehörden, Landesverwaltungen und Kommunen. Über 50 barrierefreie UI-Komponenten, einmal entwickelt, überall einsetzbar. Ihre Forderung "kostenfreie Nachnutzung für den Mittelstand" – genau das ermöglicht KoliBri. Ein Dienstleister kann dieselben Komponenten nutzen wie das ITZBund selbst.
+
+**KoliBri im Ökosystem-Modell:**
+
+- **Staatliche Basisfinanzierung**: ITZBund-Entwicklung, EUPL-lizenziert, 3.000+ wöchentliche npm-Downloads
+- **Offene Schnittstellen**: Web Components (W3C-Standard seit 2018), keine Framework-Abhängigkeit
+- **KMU-Teilhabe**: Gleiche Komponenten für Verwaltung, Bildung, Wirtschaft – kostenfrei
+
+Falls Sie konkrete Nachnutzungsbeispiele sehen möchten, stehe ich gern für einen Austausch bereit.
+
+---
+
+> Mehr Infos:
+>
+> - **[Aufnahme von KoliBri in den Deutschland-Stack](https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/200)**
+> - [Repository - Public UI - KoliBri](https://github.com/public-ui/kolibri)
+
 ## Beschreibung
 
 **Feedback:** <br>Der Deutschland-Stack sollte nicht nur eine staatliche Plattform, sondern ein gemeinsames digitales Ökosystem sein, das durch Nachfrage, Entwicklung und offene Kooperation getragen wird. Damit dieses Ökosystem dauerhaft sicher, modern und innovativ bleibt, müssen die großen öffentlichen und systemrelevanten Akteure – Militär, Verwaltung, Gesundheitswesen und Bildungseinrichtungen – als aktive, bezahlende Nachfrager und Mitentwickler auftreten.

@@ -22,6 +22,28 @@
 **Diskussion gesperrt:** Nein
 **Schweregrad:** Keine
 
+<!-- KoliBri Kommentar: https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/249 -->
+
+Ihre Analyse der "inkonsistenten Granularität" trifft ins Schwarze: Der Stack vermischt Basistechnologien, Frameworks und Meta-Frameworks. Ihre Empfehlung "Option B – Fokus auf Standards und Protokolle statt konkreter Produkte" ist genau der richtige Ansatz.
+
+KoliBri ist ein Beispiel für Option B auf UI-Ebene: Statt Angular, React, Vue einzeln aufzulisten, bieten wir Web Components als W3C-Standard. Egal welches Framework – die 50+ Komponenten funktionieren überall. Das ist "Compliance-Kriterien definieren" statt "Technologie-Empfehlungsliste".
+
+**KoliBri für standardbasierte Abstraktion:**
+
+- **Standard statt Produkt**: Web Components (W3C seit 2018), nicht Framework-Liste
+- **Konsistente Abstraktion**: 50+ Komponenten für alle UI-Frameworks
+- **Transparente Kriterien**: WCAG 2.1, BITV 2.0 als messbare Compliance
+- **Keine Abstraktions-Vermischung**: Eine Schicht, ein Standard, klare Grenzen
+
+Ihre Option B würde auch das NuxtJS-Problem (fehlt, obwohl NextJS gelistet) lösen – Standards statt Produkte.
+
+---
+
+> Mehr Infos:
+>
+> - **[Aufnahme von KoliBri in den Deutschland-Stack](https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/200)**
+> - [Repository - Public UI - KoliBri](https://github.com/public-ui/kolibri)
+
 ## Beschreibung
 
 **Feedback:** <br>Inkonsistenz zwischen Anspruch und Abstraktionsgrad
@@ -56,23 +78,3 @@ Option B
 
 Begründung:
 Die aktuelle Mischform erweckt den Eindruck einer unvollständigen Technologie-Empfehlungsliste, ohne die Vollständigkeitsansprüche einer solchen Liste zu erfüllen. Dies führt zu Verwirrung über den eigentlichen Zweck des Stacks.
-
----
-
-<!-- KoliBri Kommentar: https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/249 -->
-
-Sie beschreiben präzise das Dilemma: Der Tech-Stack listet Angular, React, Java, Python, PostgreSQL – aber in inkonsistenter Granularität. .NET fehlt, NuxtJS fehlt, während NextJS drin ist. Das ist das Kernproblem: **Wo zieht man die Grenze?**
-
-Ihre Option B – "Fokus auf Standards und Protokolle statt konkreter Produkte" – trifft den Kern. Statt 18 UI-Frameworks aufzulisten (und trotzdem unvollständig zu sein), könnte man sagen: "Nutze Web Components (W3C Standard)" und damit alle Frameworks abdecken.
-
-Genau hier liegt die Stärke von Standards: Web Components funktionieren in React, Angular, Vue, Svelte UND in Legacy-Systemen. Sie sind die Abstraktionsebene, die Ihre Option B fordert. Kein Framework-Lock-in, keine Migrationszwänge.
-
-KoliBri nutzt genau diesen Ansatz: Barrierefreie Web Components als Standard-Komponenten, die in ALLEN Frameworks funktionieren. WCAG 2.1 AAA-konform, produktiv im Einsatz, Open Source.
-
-Ich habe dazu einen Antrag gestellt: **[Aufnahme von KoliBri – die barrierefreie Komponentenbibliothek des Bundes in den Deutschland-Stack](https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/200)** – ein Beispiel für "Standards statt Produktlisten".
-
-Falls Sie an einem Austausch zur Standardisierungsstrategie interessiert sind, stehe ich gerne zur Verfügung.
-
----
-
-> _Weitere Informationen: [KoliBri auf GitHub](https://github.com/public-ui/kolibri)_

@@ -22,6 +22,28 @@
 **Diskussion gesperrt:** Nein
 **Schweregrad:** Keine
 
+<!-- KoliBri Kommentar: https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/143 -->
+
+Sie erwähnen explizit Web Components (WICG/webcomponents) als fehlende Technologie – genau das ist der Kern von KoliBri. Web Components sind der W3C-Standard für wiederverwendbare UI-Elemente, unabhängig von Framework-Herstellern wie Google (Angular) oder Meta (React).
+
+Ihre Kritik "unklar, welche Technologien auf die Landkarte sollten" zeigt ein Systematik-Problem: Wenn Web Components als W3C-Standard fehlen, während herstellergebundene Frameworks gelistet sind, stimmt die Abstraktion nicht. KoliBri baut auf dem Standard auf: 50+ barrierefreie Komponenten, WCAG 2.1 konform, 3.000+ wöchentliche Downloads.
+
+**KoliBri für Web Components:**
+
+- **W3C-Standard**: Seit 2018 in allen Browsern nativ, herstellerunabhängig
+- **50+ Komponenten**: Vue, Svelte, React, Vanilla JS – alle funktionieren
+- **WCAG 2.1 konform**: 10 Mio. Menschen mit Behinderung in DE profitieren
+- **Open Source**: EUPL-lizenziert, ITZBund-entwickelt, Community-getrieben
+
+Welche anderen fehlenden Technologien sehen Sie als kritisch?
+
+---
+
+> Mehr Infos:
+>
+> - **[Aufnahme von KoliBri in den Deutschland-Stack](https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/200)**
+> - [Repository - Public UI - KoliBri](https://github.com/public-ui/kolibri)
+
 ## Beschreibung
 
 **Feedback:** <br>Hallo,
@@ -32,23 +54,3 @@ Wenn es darum geht, möglicherweise sinnvolle Technologien zu bewerten, dann feh
 Und viele mehr.
 
 Viele Grüße
-
----
-
-<!-- KoliBri Kommentar: https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/143 -->
-
-Sie sprechen einen wichtigen Punkt an: Welche Frontend-Technologien sollten auf der Landkarte stehen? Besonders interessant ist Ihre Erwähnung von **Web Components** (https://github.com/WICG/webcomponents).
-
-Genau diese Technologie sollte meiner Meinung nach eine zentrale Rolle im Deutschland-Stack spielen. Während React, Angular, Vue und Svelte alle ihre Berechtigung haben, sind Web Components der W3C-Standard, der UNTER all diesen Frameworks funktioniert. Sie sind die gemeinsame Basis.
-
-Warum Web Components wichtig sind: Sie funktionieren ohne Framework-Lock-in. Ein Custom Element, einmal entwickelt, läuft in React, Angular, Vue, Svelte UND in reinem HTML. Keine Migration bei Technologiewechseln. Langlebig, weil standardbasiert.
-
-Genau deshalb haben wir KoliBri entwickelt: Eine Open-Source Komponentenbibliothek basierend auf Web Components, die barrierefreie UI-Bausteine liefert – unabhängig vom gewählten Framework. WCAG 2.1 AAA-konform, produktiv im Einsatz.
-
-Ich habe dazu einen Antrag gestellt: **[Aufnahme von KoliBri – die barrierefreie Komponentenbibliothek des Bundes in den Deutschland-Stack](https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/200)**.
-
-Falls Sie an einem Austausch zu Web Components interessiert sind, stehe ich gerne zur Verfügung.
-
----
-
-> _Weitere Informationen: [KoliBri auf GitHub](https://github.com/public-ui/kolibri)_

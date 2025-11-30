@@ -22,6 +22,28 @@
 **Diskussion gesperrt:** Nein
 **Schweregrad:** Keine
 
+<!-- KoliBri Kommentar: https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/347 -->
+
+Die FSFE-Position trifft ins Zentrum: "Der Deutschland-Stack kann das Ziel nur erreichen, wenn er konsequent auf Freie Software setzt." KoliBri erfüllt genau diese Anforderung – vollständig Open Source unter EUPL-Lizenz, entwickelt vom ITZBund, gehostet auf GitHub.
+
+Sie fordern die vier Freiheiten: verstehen, verwenden, verbreiten, verbessern. KoliBri liefert alle vier: Der Code ist transparent, Beiträge werden aktiv angenommen, jede Behörde kann die 50+ Komponenten sofort einsetzen. Kein Vendor-Lock-in, keine proprietären Abhängigkeiten von Google oder Meta.
+
+**KoliBri für Free Software First:**
+
+- **EUPL-lizenziert**: Alle vier Freiheiten garantiert, vollständig frei
+- **50+ Komponenten**: WCAG 2.1 konform, 3.000+ wöchentliche Downloads
+- **Keine Vendor-Abhängigkeit**: Web Components statt Google/Meta-Frameworks
+- **Nachnutzbar für alle**: Bund, Länder, Kommunen, Zivilgesellschaft profitieren
+
+Wie könnte die FSFE die Adoption freier UI-Komponenten im Stack fördern?
+
+---
+
+> Mehr Infos:
+>
+> - **[Aufnahme von KoliBri in den Deutschland-Stack](https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/200)**
+> - [Repository - Public UI - KoliBri](https://github.com/public-ui/kolibri)
+
 ## Beschreibung
 
 Der Deutschland-Stack als „nationale souveräne Technologie-Plattform“ soll das „Fundament für das digitale Deutschland“ sein und „eine souveräne, europäisch anschlussfähige und interoperable digitale Infrastruktur für Bund, Länder und Kommunen […] schaffen.“ Digitale Souveränität, im Koalitionsvertrag als Leitmotiv der Digitalpolitik der Bundesregierung vereinbart [1], meint „die Fähigkeiten und Möglichkeiten von Individuen und Institutionen, ihre Rolle(n) in der digitalen Welt selbstständig, selbstbestimmt und sicher ausüben zu können“ [2] Digitale Souveränität braucht Datensouveränität, Wechselfähigkeit, technologische sowie operative Souveränität sowie Transparenz. [3]

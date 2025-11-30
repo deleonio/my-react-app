@@ -22,6 +22,28 @@
 **Diskussion gesperrt:** Nein
 **Schweregrad:** Keine
 
+<!-- KoliBri Kommentar: https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/349 -->
+
+Ihr Punkt ist zentral: "In der Schicht 'Oberfläche und Zugang' fehlt der Teilbereich 'Barrierefreiheit'." Genau das ist eine strukturelle Lücke – Barrierefreiheit muss als eigenständiger Standard verankert sein, nicht als Nachgedanke.
+
+KoliBri liefert diesen fehlenden Baustein: 50+ barrierefreie UI-Komponenten (WCAG 2.1, BITV 2.0), die als technische Grundlage für die Oberflächenschicht dienen. Sie warnen zu Recht vor den Schweizer Fehlern: "Doppel-Arbeiten und fehlende Interoperabilität." KoliBri adressiert das direkt – eine Library für alle Frameworks, keine parallelen Entwicklungen.
+
+**KoliBri schließt die Lücke in "Oberfläche und Zugang":**
+
+- **Barrierefreiheit als Standard**: WCAG 2.1 eingebaut, 10 Mio. Menschen mit Behinderung profitieren
+- **50+ Komponenten**: Eine Basis für Angular, React, Vue – keine Doppelarbeit
+- **3.000+ Downloads/Woche**: Praxisbeweis aus dem öffentlichen Sektor
+- **Interoperabilität**: Web Components funktionieren überall, keine Silos
+
+Wie sollte Barrierefreiheit in der Schichtarchitektur konkret verankert werden?
+
+---
+
+> Mehr Infos:
+>
+> - **[Aufnahme von KoliBri in den Deutschland-Stack](https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/200)**
+> - [Repository - Public UI - KoliBri](https://github.com/public-ui/kolibri)
+
 ## Beschreibung
 
 **Feedback:** <br>Nachvollziehbare Schichten:

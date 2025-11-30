@@ -22,6 +22,16 @@
 **Diskussion gesperrt:** Nein
 **Schweregrad:** Keine
 
+<!-- KoliBri Kommentar: https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/398 -->
+
+Ihre acht Erweiterungsfelder sind präzise – bei der Frontend-Dimension liegt die Chance: Ihr VueJS-Frontend wird mächtig, wenn die UI-Bausteine selbst schon standardisiert und barrierefrei sind. Genau das ist KoliBri: Web Components (WCAG 2.1 AAA, Shadow DOM, framework-neutral), die Sie direkt in Vue einbetten, ohne Accessibility-Logik neu zu schreiben. Ihr Styling, Ihre Themes – aber garantierte A11y und Screenreader-Verhalten über alle Module hinweg.
+
+Das passt methodisch zu Ihren DCAT-AP- und OGC-Standards: Accessibility wird zum technischen Standard statt Projekt-Flickwerk. Das beschleunigt Nachnutzung über Städte und Regionen. Ich skizziere gern einen Integrationspfad für CIVORA (Vue + KoliBri + einheitliches A11y-Audit-Profil). Melden Sie sich, wenn Sie einen Proof-of-Concept testen möchten.
+
+---
+
+> _Mehr Infos: [KoliBri auf GitHub](https://github.com/public-ui/kolibri)_
+
 ## Beschreibung
 
 **Feedback:** <br>Die DKSR GmbH betreibt mit CIVORA eine vollständig offene, modular aufgebaute urbane Datenplattform, die in zahlreichen Städten und Regionen in Deutschland und Europa produktiv eingesetzt wird. Wir begrüßen die Initiative des Deutschland-Stacks ausdrücklich und unterstützen das Ziel, eine offene, föderale und interoperable digitale Infrastruktur für die öffentliche Verwaltung zu schaffen.
@@ -86,33 +96,3 @@ Zentrale Empfehlungen zur Erweiterung des Tech-Stacks
    Vorschlag:
    Ergänzung des Bereichs Oberfläche & Zugang um modulare, komponentenbasierte Open-Source-Frontends.
    Empfehlung interoperabler Frontend-Module, die mit unterschiedlichen Plattformdiensten kombinierbar sind.
-
----
-
-<!-- KoliBri Kommentar: https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/398 -->
-
-Sie beschreiben eine umfassende Datenplattform-Architektur mit CIVORA und schlagen wichtige Erweiterungen für den Deutschland-Stack vor. Besonders Ihr Punkt 8 – "Offenes, modulares Master-Frontend" – greift ein zentrales Thema auf: Wie schaffen wir interoperable, komponentenbasierte Frontend-Lösungen?
-
-### Die Frontend-Herausforderung
-
-Sie erwähnen VueJS als Basis für Ihr Frontend. Das ist eine valide Wahl – aber es führt zu einer bekannten Problematik: Was passiert, wenn andere Projekte React, Angular oder Svelte einsetzen? Entsteht ein Flickenteppich inkompatibler Frontend-Lösungen, oder gibt es eine Ebene darunter, die Framework-unabhängig funktioniert?
-
-Genau hier setzen Web Components an. Der W3C-Standard definiert Custom Elements, Shadow DOM und HTML Templates – Browser-native Funktionen, die in JEDEM Framework funktionieren. Keine Runtime-Abhängigkeit, keine Framework-Migration bei Technologiewechseln.
-
-### Modulare Architektur + Barrierefreiheit
-
-Ihr Feedback betont "modulare Architektur" und "interoperable Frontend-Module". Web Components sind modular by design: Jede Komponente ist ein eigenständiger Custom Element mit gekapseltem Styling (Shadow DOM) und kann in beliebige Frameworks integriert werden – React, Angular, Vue, oder reines HTML.
-
-Die Herausforderung: Barrierefreiheit. WCAG-konforme UI-Komponenten zu entwickeln ist komplex. Genau deshalb haben wir KoliBri entwickelt: Eine Open-Source Komponentenbibliothek mit WCAG 2.1 AAA-konformen Web Components, die in allen Frameworks funktionieren.
-
-### Ein Beispiel aus der Praxis
-
-Stellen Sie sich vor: Die CIVORA-Plattform nutzt Vue, ein anderes Projekt Angular, ein drittes React. Mit KoliBri Web Components verwenden alle drei dieselben barrierefreien UI-Bausteine – Button, Input, Table, Navigation – ohne Code-Duplikation oder Inkompatibilitäten.
-
-Ich habe dazu einen Antrag gestellt: **[Aufnahme von KoliBri – die barrierefreie Komponentenbibliothek des Bundes in den Deutschland-Stack](https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/200)** – eine Lösung, die Ihre Forderung nach "modularen, komponentenbasierten Open-Source-Frontends" mit Framework-Unabhängigkeit und Barrierefreiheit verbindet.
-
-Falls Sie an einem Austausch zu standardisierten Frontend-Bausteinen interessiert sind, stehe ich gerne zur Verfügung.
-
----
-
-> _Weitere Informationen: [KoliBri auf GitHub](https://github.com/public-ui/kolibri)_

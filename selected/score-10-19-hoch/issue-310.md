@@ -22,6 +22,28 @@
 **Diskussion gesperrt:** Nein
 **Schweregrad:** Keine
 
+<!-- KoliBri Kommentar: https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/310 -->
+
+Die SCS-Stellungnahme formuliert es präzise: "auf interoperable Komponenten und Schnittstellen setzen, deren Interoperabilität durch Standards und deren Konformitätstests sichergestellt wird." Das gilt für Cloud-Infrastruktur – und für UI-Komponenten.
+
+Was SCS für Cloud-Schichten leistet, bietet KoliBri für die UI-Schicht: "zertifizierbare, verifizierbare Standards" durch WCAG 2.1 Konformität, und Web Components als interoperable Schnittstelle. Der Ansatz "modulare, Open Source Referenzimplementierung" trifft auch auf KoliBri zu – 50+ Komponenten, vom ITZBund finanziert, offen verfügbar.
+
+**KoliBri passt zu SCS-Prinzipien:**
+
+- **Standards + Konformitätstests**: WCAG 2.1, BITV 2.0 automatisiert geprüft
+- **Interoperabilität**: Web Components über Framework-Grenzen hinweg
+- **Öffentlich finanziert**: ITZBund-Entwicklung, EUPL-Lizenz, wie SCS vom Bund gefördert
+- **50+ Komponenten**: Modulare Referenzimplementierung für barrierefreie UIs
+
+Gibt es Bestrebungen, SCS und UI-Standards zu verbinden?
+
+---
+
+> Mehr Infos:
+>
+> - **[Aufnahme von KoliBri in den Deutschland-Stack](https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/200)**
+> - [Repository - Public UI - KoliBri](https://github.com/public-ui/kolibri)
+
 ## Beschreibung
 
 Im Leitbild des Deutschland-Stacks wird Souveränität, Interoperabilität und europäische Anschlussfähigkeit
@@ -33,7 +55,7 @@ setzen, deren Interoperabilität durch Standards und deren Konformitätstests si
 Das ursprünglich vom Bundesministerium für Wirtschaft und Klimaschutz geförderte Projekt Sovereign Cloud
 Stack (SCS) hat zertifizierbare, und dementsprechend verifizierbare, Standards für interoperable CloudInfrastrukturen entwickelt. Die kontinuierliche Weiterentwicklung und Steuerung dieser Standardisierung ist, im
 Nachgang zum Förderprojekt, durch das im neutralen Rahmen der OSBA e.V. im Zusammenspiel mit der [SCS-
- Community](https://docs.scs.community/community) sichergestellt. Im Rahmen des Förderprojektes wurde auch eine [modulare, Open Source
+Community](https://docs.scs.community/community) sichergestellt. Im Rahmen des Förderprojektes wurde auch eine [modulare, Open Source
 Referenzimplementierung](https://github.com/sovereignCloudStack/) entwickelt
 . Neben dieser schlüsselfertigen Lösung ist in den letzten Jahren ein
 Ökosystem an Software Lösungen, die die SCS-Standards implementieren, entstanden (vgl. z.B. [YAOOK](https://alasca.cloud/projects/yaook/)).
@@ -43,6 +65,5 @@ sich auch im Kontext der Stellungnahme der Open Source Business Alliance, daher 
 aufgegriffen werden, hier nicht wiederholt.
 In der Betrachtung der Schichten des Tech-Stacks zahlt SCS auf die Schichten Plattform > Integration und
 Strategie, Architektur und Governance ein.
-
 
 (Die komplette Stellungnahme des Forum SCS-Standards der OSBA ist unter folgender Adresse zu finden: [https://sovereigncloudstack.org/konsultationsverfahren-deutschland-stack-einreichung-forum-sovereign-cloud-stack-standards-der-open-source-business-alliance-e-v/](https://sovereigncloudstack.org/konsultationsverfahren-deutschland-stack-einreichung-forum-sovereign-cloud-stack-standards-der-open-source-business-alliance-e-v/))

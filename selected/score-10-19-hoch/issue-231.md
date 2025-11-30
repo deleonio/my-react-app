@@ -22,6 +22,25 @@
 **Diskussion gesperrt:** Nein
 **Schweregrad:** Keine
 
+<!-- KoliBri Kommentar: https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/231 -->
+
+Ihre Frage ist berechtigt: "Was bedeutet es für meine Firma, wenn ich VueJS verwende und nicht Angular oder React?" Das Risiko konkreter Framework-Vorgaben sehen Sie richtig: Google kann Angular jederzeit komplett überarbeiten, dann sind alle Anwendungen betroffen.
+
+Die Lösung liegt in Ihrer eigenen Empfehlung: "Schnittstellen festlegen, nicht Frameworks diktieren." KoliBri macht genau das auf UI-Ebene: Web Components als W3C-Standard, die mit VueJS, React, Angular oder ohne Framework funktionieren. Wenn Sie VueJS nutzen, können Sie KoliBri-Komponenten integrieren – kein Ausschluss, kein Umbauen.
+
+**Warum KoliBri für Framework-Freiheit?**
+
+- **Kein Framework-Lock-in** – Web Components funktionieren mit Vue, React, Angular
+- **Standard statt Vorgabe** – W3C-konform, nicht von Google/Meta abhängig
+- **Zukunftssicher** – Wenn ein Framework sich ändert, bleiben die Komponenten
+
+---
+
+> Mehr Infos:
+>
+> - **[Aufnahme von KoliBri in den Deutschland-Stack](https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/200)**
+> - [Repository - Public UI - KoliBri](https://github.com/public-ui/kolibri)
+
 ## Beschreibung
 
 **Feedback:** <br>Hallo Deutschland - Stack - Team,

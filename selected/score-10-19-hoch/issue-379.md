@@ -22,11 +22,33 @@
 **Diskussion gesperrt:** Nein
 **Schweregrad:** Keine
 
+<!-- KoliBri Kommentar: https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/379 -->
+
+Ihre Analyse trifft den Kern: "Governance sollte Architekturen, Standards und Schnittstellen priorisieren, nicht spezifische Technologien." Der Punkt "API first"-Paradigma und "offene Referenzimplementierungen" ist entscheidend für ein funktionierendes Ökosystem.
+
+KoliBri ist genau eine solche "offene Referenzimplementierung" für die UI-Schicht: Web Components als standardisierte Schnittstelle, EUPL-lizenziert, mit klarer API-Dokumentation. 50+ Komponenten, 3.000+ wöchentliche Downloads, WCAG 2.1 konform – die Barrierefreiheits-Zertifizierung ist messbar und prüfbar.
+
+**KoliBri erfüllt Ihre Architekturprinzipien:**
+
+- **Standard vor Produkt**: Web Components (W3C seit 2018), nicht Framework-spezifisch
+- **Offene Referenzimplementierung**: 50+ dokumentierte UI-Bausteine, GitHub-Repository
+- **Barrierefreiheits-Zertifizierung**: WCAG 2.1, BITV 2.0 als messbare Qualität
+- **Ökosystem-Denken**: Funktioniert mit Java, Spring, PHP, .NET gleichermaßen
+
+Wie würden Sie die Konsolidierungspfade für UI-Technologien konkret gestalten?
+
+---
+
+> Mehr Infos:
+>
+> - **[Aufnahme von KoliBri in den Deutschland-Stack](https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/200)**
+> - [Repository - Public UI - KoliBri](https://github.com/public-ui/kolibri)
+
 ## Beschreibung
 
 **1. D-Stack: Erst die Einsatzszenarien definieren, dann die nötigen Technologien auswählen**
 
-Die aktuelle D-Stack-Landkarte listet zwar eine Vielzahl an Technologien, allerdings fehlt eine klare Leitfrage: _Wofür soll der D-Stack konkret eingesetzt werden?_ Ohne eine nachvollziehbare Ableitung aus konkreten Verwaltungsanwendungsfällen besteht die Gefahr, dass der D-Stack, sich in technologischer Vielfalt verliert. Eine nachhaltige Stack-Governance sollte daher mit realen Digitalisierungsbedarfen beginnen und erst im zweiten Schritt die dazu passenden Technologien bestimmen. Die Reihenfolge lautet: _Problem → Lösung → Technologie_.
+Die aktuelle D-Stack-Landkarte listet zwar eine Vielzahl an Technologien, allerdings fehlt eine klare Leitfrage: *Wofür soll der D-Stack konkret eingesetzt werden?* Ohne eine nachvollziehbare Ableitung aus konkreten Verwaltungsanwendungsfällen besteht die Gefahr, dass der D-Stack, sich in technologischer Vielfalt verliert. Eine nachhaltige Stack-Governance sollte daher mit realen Digitalisierungsbedarfen beginnen und erst im zweiten Schritt die dazu passenden Technologien bestimmen. Die Reihenfolge lautet: *Problem → Lösung → Technologie*.
 
 **2. Konsolidierte Architekturen als Grundlage**
 

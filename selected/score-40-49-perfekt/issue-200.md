@@ -22,6 +22,16 @@
 **Diskussion gesperrt:** Nein
 **Schweregrad:** Keine
 
+<!-- KoliBri Kommentar: https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/200 -->
+
+Der Kerngedanke ist präzise: Barrierefreiheit als technische Infrastruktur, nicht als Projekt-Zusatz. Genau das habe ich bei KoliBri umgesetzt – zentral geprüfte Web Components (WCAG 2.1 AAA, Shadow DOM), die React-, Angular-, Vue- oder Legacy-Teams gleich nutzen. Das spart massiv: Teams bauen barrierefreie UIs automatisch, Audits werden kürzer, und die Kosten sinken, weil Prüfung zentral geschieht statt in jedem Projekt aufs Neue.
+
+Entscheidend ist Ihre strategische Wirkung-Dimension: KoliBri schafft einen verbindlichen, interoperablen Standard auf UI-Ebene – ohne die Vielfalt bei DBs oder Backends zu beschneiden. Das ist der konkrete Anker, den ein Stack braucht. Gern unterstütze ich einen Pilot: Schauen wir gemeinsam, wie KoliBri sich in Ihre bestehende Tech-Landschaft (Frameworks, CMS, Backend) einwirkt?
+
+---
+
+> _Mehr Infos: [KoliBri auf GitHub](https://github.com/public-ui/kolibri)_
+
 ## Beschreibung
 
 **Management Summary**
@@ -66,10 +76,10 @@ So wird KoliBri zum **Baustein digitaler Souveränität** – entwickelt im Bund
 KoliBri nutzt standardkonforme Web Components und ist damit **technologieneutral**.
 Es lässt sich nahtlos in bestehende D-Stack-Technologien integrieren, z. B.:
 
-* Frontend-Frameworks wie React, Angular, Vue
-* CMS- und Portallösungen
-* Backend-Systeme mit serverseitigem Rendering
-* Designsysteme und Design Libraries
+- Frontend-Frameworks wie React, Angular, Vue
+- CMS- und Portallösungen
+- Backend-Systeme mit serverseitigem Rendering
+- Designsysteme und Design Libraries
 
 KoliBri ist **designsystem-agnostisch** – Themes und Styles sind frei anpassbar.
 So fügt es sich **visuell und funktional** in bestehende D-Stack-Komponenten ein.
@@ -79,7 +89,7 @@ So fügt es sich **visuell und funktional** in bestehende D-Stack-Komponenten ei
 KoliBri fungiert als **Qualitätsfilter und Dokumentationsplattform für Barrierefreiheit**.
 Jede technische Entscheidung folgt dem Prinzip:
 
-> *Nur das, was Barrierefreiheit erhält oder verbessert, wird umgesetzt.*
+> _Nur das, was Barrierefreiheit erhält oder verbessert, wird umgesetzt._
 
 Technische Grenzen, Browserdefizite oder Framework-Probleme werden **offen dokumentiert**.
 KoliBri dient als **technische Drehscheibe** für Fragen, Kritik und Weiterentwicklung im Bereich Accessibility im Bund.
@@ -88,20 +98,20 @@ So wird KoliBri zur **Brücke zwischen Umsetzungspraxis, Technologie und Normung
 
 ### e) Nachhaltigkeit & Nachnutzung
 
-* Vollständig Open Source, dokumentiert unter [https://public-ui.github.io](https://public-ui.github.io)
-* Lizenzkostenfrei und langfristig nachnutzbar
-* Förderung gemeinsamer Weiterentwicklung durch offene Community
-* Reduzierung technischer und fachlicher Redundanzen im öffentlichen IT-Bereich
-* Beitrag zu einem **einheitlichen, inklusiven Digital Government Stack**
+- Vollständig Open Source, dokumentiert unter [https://public-ui.github.io](https://public-ui.github.io)
+- Lizenzkostenfrei und langfristig nachnutzbar
+- Förderung gemeinsamer Weiterentwicklung durch offene Community
+- Reduzierung technischer und fachlicher Redundanzen im öffentlichen IT-Bereich
+- Beitrag zu einem **einheitlichen, inklusiven Digital Government Stack**
 
 ## Ergebnis & Wirkung
 
 Mit der Aufnahme in den D-Stack kann KoliBri:
 
-* zur **technischen Grundlage für barrierefreie Webentwicklung** im öffentlichen Sektor werden,
-* als **Referenz für Zugänglichkeit und Interoperabilität** dienen,
-* die **Nachnutzung barrierefreier Standards** über föderale Ebenen hinweg vereinfachen,
-* und das **Vertrauen in staatlich entwickelte Open-Source-Technologien** stärken.
+- zur **technischen Grundlage für barrierefreie Webentwicklung** im öffentlichen Sektor werden,
+- als **Referenz für Zugänglichkeit und Interoperabilität** dienen,
+- die **Nachnutzung barrierefreier Standards** über föderale Ebenen hinweg vereinfachen,
+- und das **Vertrauen in staatlich entwickelte Open-Source-Technologien** stärken.
 
 KoliBri ist keine Alternative zu bestehenden Tools –
 **es ist die Basis, auf der nachhaltige, inklusive Software entstehen kann.**

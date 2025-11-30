@@ -22,6 +22,28 @@
 **Diskussion gesperrt:** Nein
 **Schweregrad:** Keine
 
+<!-- KoliBri Kommentar: https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/134 -->
+
+Sie treffen den Nagel auf den Kopf: "HTML5 JavaScript kann inzwischen sehr viel nativ." Die aufgeführten Frameworks sind "ein Überbau" und "bei kleineren Projekten eher eine Komplikation." Genau das sehe ich auch so.
+
+Web Components sind die Lösung: Native Browser-Technologie (W3C-Standard seit 2018), kein Framework-Overhead, aber trotzdem wiederverwendbare Komponenten. KoliBri baut auf diesem Prinzip auf: 50+ barrierefreie Komponenten, die mit nativem HTML/JS funktionieren – oder mit Angular/React, falls ein Projekt das nutzt.
+
+**KoliBri für natives Web:**
+
+- **W3C Web Components**: Native Browser-Technologie seit 2018, kein Framework nötig
+- **HTML/JS-basiert**: `<kol-button>` funktioniert ohne Angular, React oder NextJS
+- **50+ Komponenten**: WCAG 2.1 konform, 3.000+ wöchentliche Downloads
+- **Kein Overhead**: Bundle-Größe pro Komponente, nicht das ganze Framework
+
+Haben Sie Erfahrungen mit Web Components? Wäre spannend zu hören.
+
+---
+
+> Mehr Infos:
+>
+> - **[Aufnahme von KoliBri in den Deutschland-Stack](https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/200)**
+> - [Repository - Public UI - KoliBri](https://github.com/public-ui/kolibri)
+
 ## Beschreibung
 
 **Feedback:** <br>unter Zugang Browser bitte hinzufuegen:

@@ -22,6 +22,28 @@
 **Diskussion gesperrt:** Nein
 **Schweregrad:** Keine
 
+<!-- KoliBri Kommentar: https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/284 -->
+
+Die OSBA-Stellungnahme bringt es auf den Punkt: "Open-Source-Vorrang", "Bereitstellung auf openCode" und "Kontributoren in Governance einbeziehen". Genau diese Prinzipien lebt KoliBri bereits.
+
+Ihre Forderung nach "Referenzprofile und Mindestbausteine ausschließlich mit Open-Source-Komponenten" passt perfekt: KoliBri liefert 50+ barrierefreie UI-Bausteine unter EUPL-Lizenz, entwickelt beim ITZBund, offen auf GitHub. Die "Austausch- und Nachnutzbarkeit als Leitkriterium" ist durch Web Components als W3C-Standard gewährleistet – 3.000+ wöchentliche Downloads zeigen die Nachfrage.
+
+**KoliBri erfüllt OSBA-Kriterien:**
+
+- **Open Source First**: EUPL-lizenziert, öffentlich finanziert, GitHub-Community
+- **50+ Komponenten**: WCAG 2.1 konform, BITV 2.0 geprüft
+- **Nachnutzbarkeit**: Web Components funktionieren framework-übergreifend
+- **Transparente Governance**: Issues, PRs, Roadmap öffentlich auf GitHub
+
+Wie könnte die OSBA die Adoption solcher Referenz-Komponenten konkret fördern?
+
+---
+
+> Mehr Infos:
+>
+> - **[Aufnahme von KoliBri in den Deutschland-Stack](https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/200)**
+> - [Repository - Public UI - KoliBri](https://github.com/public-ui/kolibri)
+
 ## Beschreibung
 
 Der Dreiklang von [Strategie, Architektur und Governance](https://deutschland-stack.gov.de/aufbau) ist sinnvoll, aber in dieser Form vermutlich zu abstrakt für konkrete Vergabeverfahren. Folgende Punkte sollten ergänzt oder konkretisiert werden.

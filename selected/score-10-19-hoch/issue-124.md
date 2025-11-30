@@ -22,18 +22,40 @@
 **Diskussion gesperrt:** Nein
 **Schweregrad:** Keine
 
+<!-- KoliBri Kommentar: https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/124 -->
+
+Ihre Priorisierung gefällt mir: "Nicht die Auswahl der richtigen Programmiersprache oder des Frameworks ist interessant, sondern die richtige Zuordnung." Das ist exakt die Philosophie hinter KoliBri – wir liefern UI-Komponenten als Web Components, egal ob Sie Phoenix/Elixir, Java oder Python nutzen.
+
+Interessant, dass Sie Phoenix/Elixir empfehlen und explizit "bitte nicht Java oder .NET" schreiben. KoliBri ist agnostisch: Die 50+ Komponenten funktionieren mit jedem Backend, das HTML ausliefert. Die Paradigmen-Wahl (prozedural, funktional, OO) bleibt bei Ihnen – die UI-Schicht ist davon entkoppelt.
+
+**KoliBri für Paradigmen-Freiheit:**
+
+- **Backend-agnostisch**: Phoenix, Elixir, Java, Python – was immer Sie wählen
+- **50+ Komponenten**: Web Components (W3C seit 2018), keine Framework-Bindung
+- **WCAG 2.1 konform**: 10 Mio. Menschen mit Behinderung in DE profitieren
+- **Fehlertoleranz**: Shadow DOM isoliert Komponenten, keine CSS-Konflikte
+
+Ihre "Do fun things with big, loud worker-bees"-Architektur klingt spannend – wie setzen Sie das konkret um?
+
+---
+
+> Mehr Infos:
+>
+> - **[Aufnahme von KoliBri in den Deutschland-Stack](https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/200)**
+> - [Repository - Public UI - KoliBri](https://github.com/public-ui/kolibri)
+
 ## Beschreibung
 
 **Feedback:** <br>Priorität 1: Requirement- und Change-Request-Management (schon mal sehr positives Feedback, da es diese Seite hier gibt). Aber das hat wirklich Prioriät 1.
 
-Priorität 2: Die Wahl des richtigen Paradigmas (Prozedural, Funktional, Objekt-orientiert). Nicht die Auswahl der "richtigen" Programmiersprache oder des Frameworks ist interessant, sondern die richtige Zuordnung bestimmter Funktionalitäten zu den verschiedenen Paradigmen.  Bei richtiger Auswahl sind Prioriät 3 und 4 sogut wie abgegolten.
+Priorität 2: Die Wahl des richtigen Paradigmas (Prozedural, Funktional, Objekt-orientiert). Nicht die Auswahl der "richtigen" Programmiersprache oder des Frameworks ist interessant, sondern die richtige Zuordnung bestimmter Funktionalitäten zu den verschiedenen Paradigmen. Bei richtiger Auswahl sind Prioriät 3 und 4 sogut wie abgegolten.
 
 Priorität 3: Fehlertoleranz. Seit Ende der 60er gibt es fehlertolerante Software. Ein schönes Beispiel ist die erste Mondlandung. Ein moderneres Beispiel wäre das Phonix/Elixir Framework (und viele weitere!)
 
 Priorität 4: Sicherheit. Hat eigentlich bei richtigem Einsatz keine Priorität da dies bei richtigem Einsatz des Frameworks (bitte nicht Java oder .NET) bereits (zumindest aus technischer Sicht) abgegolten ist (und sein muss!). Es gibt natürlich andere semi-technische Sicherheitsaspekte wie Social Engineering bspw. die sehr wohl berücksichtigt werden müssen.
 
 Alles in allem empfehle ich eine grundlegende Architektur getreu des Acronyms: "Do fun things with big, loud worker-bees":
-(D)ata, (F)unctional Core, (T)esting, (B)oundaries, (L)ifecycle, (W)orkers 
-sowie die Open-Telecommunication-Platform (OTP) in Phoenix/Erlang bereits integriert. Das hat nichts mit Telekom zu tun! 
+(D)ata, (F)unctional Core, (T)esting, (B)oundaries, (L)ifecycle, (W)orkers
+sowie die Open-Telecommunication-Platform (OTP) in Phoenix/Erlang bereits integriert. Das hat nichts mit Telekom zu tun!
 
 Meiner Meinung nach sollte es bei Berücksichtigung obiger Prioritäten nicht mehr als 20 Software-Architekte benötigen. Der Funktionale Kern (manche nennen es Business-Logik) ist natürlich riesig für ein ganzes Land und erfordert sowohl einige Software-Entwickler, als auch Interdisziplinäres, lupenreines Requirement-Management.

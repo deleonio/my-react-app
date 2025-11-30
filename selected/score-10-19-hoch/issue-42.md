@@ -22,6 +22,28 @@
 **Diskussion gesperrt:** Nein
 **Schweregrad:** Keine
 
+<!-- KoliBri Kommentar: https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/42 -->
+
+Ihre GovTech-Anforderungsliste liest sich wie eine Checkliste für KoliBri: "OSS-Defaults (EU-kompatible Lizenzen)", "Referenz-Implementierungen, SDKs", "Portabilität & Exit". All das haben wir umgesetzt.
+
+KoliBri ist die Referenz-Implementierung für barrierefreie UIs im öffentlichen Sektor. 50+ Komponenten, EUPL-lizenziert, vom ITZBund entwickelt. Ihre Forderung "keine proprietären Locks" erfüllen wir durch Web Components – funktioniert mit React, Angular, Vue oder nativ. Wenn Sie morgen das Framework wechseln, bleiben die Komponenten dieselben.
+
+**KoliBri erfüllt GovTech-Kriterien:**
+
+- **OSS-Default**: EUPL-Lizenz (EU-kompatibel), 3.000+ wöchentliche Downloads
+- **Referenz-SDK**: 50+ UI-Komponenten, WCAG 2.1 konform, für alle Frameworks
+- **Portabilität**: Web Components (W3C), kein Vendor-Lock-in, Exit jederzeit möglich
+- **Testbarkeit**: Automatisierte A11y-Tests, Conformance-Suites für BITV 2.0
+
+Welche Ihrer GovTech-Anforderungen sehen Sie als größte Herausforderung? Vielleicht können wir helfen.
+
+---
+
+> Mehr Infos:
+>
+> - **[Aufnahme von KoliBri in den Deutschland-Stack](https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/200)**
+> - [Repository - Public UI - KoliBri](https://github.com/public-ui/kolibri)
+
 ## Beschreibung
 
 **Feedback:** <br>Anforderungen von GovTech/CivicTech an den Stack

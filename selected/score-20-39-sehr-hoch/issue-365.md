@@ -22,6 +22,23 @@
 **Diskussion gesperrt:** Nein
 **Schweregrad:** Keine
 
+<!-- KoliBri Kommentar: https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/365 -->
+
+Sie schreiben von "standardisierten UX-Bausteinen", "Low-Code-Wiederverwendung" und "Barrierefreiheit" – genau dort setzt KoliBri an. Die Idee: Zentral geprüfte, barrierefreie Web Components, die jedes GovTech-Angebot direkt einbetten kann, statt Accessibility-Logik selbst zu implementieren.
+
+Ihr Punkt zur "Technologieoffenheit" ist entscheidend: KoliBri basiert auf dem W3C Web Components Standard und funktioniert mit React, Angular, Vue oder ohne Framework. Das bedeutet für GovTech-Unternehmen maximale Flexibilität bei der Technologiewahl – keine Vendor-Lock-ins, keine Framework-Zwänge.
+
+Besonders relevant für Ihren Anwendungsfall "Digitale Identitäten und Wallets als Basisdienste": KoliBri garantiert konsistente Screenreader- und Tastatur-Bedienbarkeit über alle Touchpoints hinweg. Bei Identifikationsverfahren und PIN-Rücksetzdiensten ist das kritisch – 10 Mio. Menschen mit Behinderung in Deutschland müssen diese Prozesse barrierefrei nutzen können.
+
+Ihre Vision "Staat als Infrastrukturgeber, Wirtschaft differenziert fachlich" trifft es genau: KoliBri liefert die audierte UI-Basis mit 50+ WCAG 2.1 konformen Komponenten, GovTech-Unternehmen wie Nect bauen darauf nutzerzentrierte Lösungen. Keine neuen Accessibility-Prüfungen, keine Rechtsrisiken. Wäre ein Integrationspfad für eine Ihrer Lösungen interessant?
+
+---
+
+> Mehr Infos:
+>
+> - **[Aufnahme von KoliBri in den Deutschland-Stack](https://gitlab.opencode.de/dstack/d-stack-home/-/work_items/200)**
+> - [Repository - Public UI - KoliBri](https://github.com/public-ui/kolibri)
+
 ## Beschreibung
 
 **Feedback:** <br>Kommentar der Nect GmbH zum Deutschland.Stack:
