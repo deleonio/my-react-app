@@ -3,6 +3,10 @@
 		"kolibri-mcp": {
 			"type": "http",
 			"url": "https://public-ui-kolibri-mcp.vercel.app/mcp"
+		},
+		"kolibri-glama-mcp": {
+			"type": "http",
+			"url": "https://glama.ai/api/mcp/v1/servers/deleonio/public-ui-kolibri"
 		}
 	},
 	"inputs": []
