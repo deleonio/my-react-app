@@ -1,0 +1,68 @@
+// Beispiel 3: Custom Pipeline mit einzelnen Steps
+@Library('openapi-shared-library') _
+
+def apiName = 'my-custom-api'
+def apiVersion = ''
+def artifactUrl = ''
+
+node {
+    try {
+        stage('Checkout OpenAPI') {
+            openapiCheckout(
+                repoUrl: 'https://github.com/myorg/my-api.git',
+                branch: 'develop',
+                credentialsId: 'git-credentials',
+                filePath: 'specs/openapi.yaml'
+            )
+        }
+
+        stage('Extract Version') {
+            // Manuelle Version-Extraktion
+            def data = readYaml file: 'specs/openapi.yaml'
+            apiVersion = data.info.version
+            echo "API Version: ${apiVersion}"
+        }
+
+        stage('Run Validation') {
+            openapiValidate(
+                file: 'specs/openapi.yaml',
+                nodeImage: 'node:20-alpine',
+                strict: true
+            )
+        }
+
+        stage('Custom Processing') {
+            // Zusätzliche Custom-Verarbeitung
+            echo "Führe zusätzliche Checks aus..."
+            // z.B. Linting, zusätzliche Tests, etc.
+        }
+
+        stage('Upload to Nexus') {
+            artifactUrl = openapiUploadNexus(
+                file: 'specs/openapi.yaml',
+                apiName: apiName,
+                apiVersion: apiVersion,
+                nexusUrl: 'https://nexus.example.com',
+                repository: 'openapi-specs',
+                credentialsId: 'nexus-credentials'
+            )
+        }
+
+        stage('Notify') {
+            // Custom Notification
+            echo """
+            ========================================
+            OpenAPI erfolgreich veröffentlicht!
+            API: ${apiName}
+            Version: ${apiVersion}
+            URL: ${artifactUrl}
+            ========================================
+            """
+        }
+
+    } catch (Exception e) {
+        currentBuild.result = 'FAILURE'
+        echo "Pipeline fehlgeschlagen: ${e.message}"
+        throw e
+    }
+}

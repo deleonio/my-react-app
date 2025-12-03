@@ -1,0 +1,13 @@
+{
+  "name": "openapi-validator",
+  "version": "1.0.0",
+  "description": "OpenAPI/YAML validation toolkit for Jenkins pipelines",
+  "private": true,
+  "dependencies": {
+    "js-yaml": "4.1.0",
+    "@apidevtools/swagger-parser": "10.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
