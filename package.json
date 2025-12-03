@@ -10,7 +10,9 @@
 		"lint": "eslint .",
 		"preview": "vite preview",
 		"test:e2e": "playwright test",
-		"update": "ncu -u"
+		"update": "ncu -u",
+		"download:openapi": "node scripts/download-openapi.js",
+		"prebuild": "npm run download:openapi"
 	},
 	"dependencies": {
 		"react": "19.2.0",

@@ -13,6 +13,11 @@ dist-ssr
 test-results
 *.local
 
+# OpenAPI Configuration (may contain sensitive URLs)
+.openapi.config.json
+src/api/specs/*.yml
+src/api/specs/*.yaml
+
 # Editor directories and files
 !.vscode/extensions.json
 .idea
