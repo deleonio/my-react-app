@@ -45,7 +45,7 @@ Aber es geht um mehr als Geld. Es geht um:
 
 ## 1: Team-Effizienz und DORA-Metriken – Ein Elite-Performer-Projekt
 
-Das KoliBri-Projekt wird vom ITZBund (Informationstechnikzentrum Bund) betrieben, dem zentralen IT-Dienstleister der Bundesverwaltung mit rund 300.000 Nutzern. Die Entwicklung erfolgt durch ein gemischtes Team unter der technischen Leitung von Martin Oppitz, das kontinuierlich an der Weiterentwicklung der Bibliothek arbeitet. KoliBri bildet zudem die technische Basis für **DESYBRI**, das Design System des ITZBund – ein Beleg für das Vertrauen der eigenen Organisation in die Qualität der Bibliothek.
+Das KoliBri-Projekt wird vom ITZBund (Informationstechnikzentrum Bund) betrieben, dem zentralen IT-Dienstleister der Bundesverwaltung mit rund 300.000 Nutzern. Die Entwicklung erfolgt durch ein gemischtes Team unter der technischen Leitung von Martin Oppitz, das kontinuierlich an der Weiterentwicklung der Bibliothek arbeitet.
 
 ### Metriken, die Effizienz belegen
 
@@ -169,9 +169,8 @@ Obwohl KoliBri seinen Ursprung in der deutschen Verwaltung hat, ist die Architek
 
 - DEFAULT (neutrales Basis-Theme)
 - ITZBund (Bundesverwaltung)
-- DESYBRI (Design System des ITZBund – baut auf KoliBri auf)
 - ECL_EC und ECL_EU (Europäische Kommission / Europäische Union)
-- Weitere Behörden-Themes in Entwicklung
+- DESYBRI, KERN und weitere Behörden-Themes
 
 Die Architektur ermöglicht es jedem Unternehmen oder jeder Institution weltweit, KoliBri zu nutzen und das eigene Corporate Design als Theme zu implementieren. Die Barrierefreiheit bleibt dabei architektonisch garantiert – unabhängig vom gewählten Design.
 
@@ -194,7 +193,6 @@ Ein präziserer Erfolgsindikator wäre die Anzahl der Behörden und Verwaltungse
 **Institutionelle Nutzung**:
 
 - Entwicklung durch ITZBund, den zentralen IT-Dienstleister des Bundes
-- **Wiederverwendung im DESYBRI Design System** des ITZBund
 - Einsatz in Projekten des KERN-Programms
 - Pilotierungen bei verschiedenen Bundes- und Landesbehörden
 
