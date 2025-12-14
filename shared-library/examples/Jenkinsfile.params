@@ -1,0 +1,45 @@
+// Beispiel 2: Pipeline mit Jenkins-Parametern
+@Library('openapi-shared-library') _
+
+properties([
+    parameters([
+        string(
+            name: 'API_NAME',
+            description: 'API-Name in Kebab-Case (z.B. user-management-api)',
+            defaultValue: ''
+        ),
+        string(
+            name: 'GIT_REPO_URL',
+            description: 'Git Repository URL',
+            defaultValue: ''
+        ),
+        string(
+            name: 'GIT_BRANCH',
+            description: 'Git Branch',
+            defaultValue: 'main'
+        ),
+        string(
+            name: 'NEXUS_URL',
+            description: 'Nexus Server URL',
+            defaultValue: 'https://nexus.example.com'
+        ),
+        string(
+            name: 'NEXUS_REPOSITORY',
+            description: 'Nexus Repository Name',
+            defaultValue: 'raw-hosted'
+        ),
+        string(
+            name: 'OPENAPI_FILE',
+            description: 'Pfad zur OpenAPI-Datei im Repository',
+            defaultValue: 'openapi.yml'
+        ),
+        booleanParam(
+            name: 'STRICT',
+            description: 'Strict-Mode für erweiterte Validierung aktivieren',
+            defaultValue: false
+        )
+    ])
+])
+
+// Pipeline nutzt automatisch die Parameter
+openapiPublish()

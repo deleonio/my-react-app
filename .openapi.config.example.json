@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "OpenAPI Download Configuration",
+  "description": "Konfiguration für das Herunterladen von OpenAPI-Spezifikationen aus Nexus",
+  "nexusUrl": "https://nexus.example.com",
+  "repository": "raw-hosted",
+  "outputDir": "src/api/specs",
+  "apis": [
+    {
+      "name": "user-management-api",
+      "version": "1.0.0",
+      "filename": "user-api.yml",
+      "description": "User Management API Specification"
+    },
+    {
+      "name": "product-catalog-api",
+      "version": "2.3.1",
+      "filename": "product-api.yml",
+      "description": "Product Catalog API Specification"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+// Beispiel 1: Vollständige Pipeline mit direkten Parametern
+@Library('openapi-shared-library') _
+
+openapiPublish(
+    apiName: 'user-management-api',
+    gitRepoUrl: 'https://github.com/myorg/my-api.git',
+    gitBranch: 'main',
+    gitCredentialsId: 'git-credentials',
+    nexusUrl: 'https://nexus.example.com',
+    nexusRepository: 'raw-hosted',
+    nexusCredentialsId: 'nexus-credentials',
+    nodeImage: 'node:20-alpine',
+    openapiFile: 'openapi.yml',
+    strict: true
+)
