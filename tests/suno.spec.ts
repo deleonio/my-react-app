@@ -8,7 +8,7 @@ test.use({
 });
 
 test.describe('Suno Song Tests', () => {
-	test.describe.configure({ mode: 'parallel' });
+	test.describe.configure({ mode: 'parallel', repeatEach: 10 });
 	[
 		'066077da-ae8e-40f1-a51d-64bdd3c89668', // https://suno.com/song/066077da-ae8e-40f1-a51d-64bdd3c89668 (The Little Hummingbird)
 		'4d05d147-088c-4e03-88a2-5535cb4665b9', // https://suno.com/song/4d05d147-088c-4e03-88a2-5535cb4665b9 (Kleiner KoliBri flieg)
