@@ -1,4 +1,4 @@
-import { test } from '@playwright/test';
+import { expect, test } from '@playwright/test';
 
 test.use({
 	viewport: {
@@ -27,6 +27,38 @@ test.describe('Suno Song Tests', () => {
 			await page.goto(`https://suno.com/song/${hash}`);
 			await page.getByRole('button', { name: 'Playbar: Play button' }).click();
 			await page.waitForTimeout(5000);
+		});
+	});
+});
+
+test.describe('StackBlitz Projects', () => {
+	test.describe.configure({
+		mode: 'serial',
+	});
+	const stackblitzBaseUrl = 'https://stackblitz.com/edit/';
+	const stackblitzHashes = [
+		'vitejs-vite-zmnbtsbi', // v4
+		'vitejs-vite-ihadrw', // v3
+		'vitejs-vite-kkfhk5', // v2
+		'vitejs-vite-dcg6xo', // v1
+	];
+	let stackblitzReachable = true;
+
+	test.beforeAll(async ({ request }) => {
+		const response = await request.get(`${stackblitzBaseUrl}${stackblitzHashes[0]}`, {
+			failOnStatusCode: false,
+		});
+		stackblitzReachable = response.ok();
+	});
+
+	stackblitzHashes.forEach((hash) => {
+		const projectUrl = `${stackblitzBaseUrl}${hash}?file=src%2FApp.jsx`;
+		test(`Load StackBlitz project ${hash}`, async ({ page }) => {
+			test.skip(!stackblitzReachable, 'StackBlitz is not reachable in the current environment.');
+			await page.goto(projectUrl, { waitUntil: 'domcontentloaded' });
+			await page.waitForLoadState('networkidle');
+			await expect(page).toHaveURL(/stackblitz\.com\/edit\//);
+			await page.waitForTimeout(3000);
 		});
 	});
 });
