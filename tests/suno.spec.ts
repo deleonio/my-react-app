@@ -22,6 +22,9 @@ test.describe('Suno Song Tests', () => {
 		'df883ab7-454a-45cf-8047-4bb23513843f', // Hummingbird fly (Orchestral)
 		'29b9708b-c19e-4809-b02c-d41ba9a84aed', // Hummingbird fly (Dance-Punk)
 		'c0dcb245-9a92-4e7b-8a7a-7e02a9bdc611', // Hummingbird fly (Pop-Rock)
+		'528cdb8c-56ff-431c-b201-2ac6ed6bb382', // Hummingbird fly (Christmas-Chor)
+		'151f2a53-9784-49a8-8bd5-49f2b3c8e88d', // Hummingbird fly (Cyberpunk)
+		'3fc2773d-ac50-49a2-b791-71fb79cd76e9', // Hummingbird fly (Piano)
 	].forEach((hash) => {
 		test(`Test ${hash}`, async ({ page }) => {
 			await page.goto(`https://suno.com/song/${hash}`);
