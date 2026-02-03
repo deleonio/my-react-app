@@ -1,0 +1,121 @@
+.kolibri-form-container {
+	max-width: 600px;
+	margin: 2rem auto;
+	padding: 2rem;
+	background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+	border-radius: 12px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+}
+
+.kolibri-form-container h2 {
+	text-align: center;
+	color: #333;
+	margin-top: 0;
+	margin-bottom: 1.5rem;
+	font-size: 1.8rem;
+}
+
+.form-wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+
+.form-group {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+.message-label {
+	font-weight: 600;
+	color: #333;
+	font-size: 0.95rem;
+}
+
+.message-textarea {
+	padding: 0.75rem;
+	border: 2px solid #ccc;
+	border-radius: 6px;
+	font-family: inherit;
+	font-size: 1rem;
+	min-height: 120px;
+	resize: vertical;
+	transition: all 0.3s ease;
+}
+
+.message-textarea:focus {
+	outline: none;
+	border-color: #007acc;
+	box-shadow: 0 0 8px rgba(0, 122, 204, 0.3);
+}
+
+.form-actions {
+	display: flex;
+	gap: 1rem;
+	justify-content: center;
+	margin-top: 1.5rem;
+}
+
+.form-info {
+	margin-top: 2rem;
+	padding: 1.5rem;
+	background: rgba(255, 255, 255, 0.8);
+	border-radius: 8px;
+	border-left: 4px solid #007acc;
+}
+
+.form-info p {
+	margin: 0 0 1rem 0;
+	color: #333;
+	font-weight: 600;
+}
+
+.form-info pre {
+	margin: 0;
+	background: #f4f4f4;
+	padding: 1rem;
+	border-radius: 6px;
+	overflow-x: auto;
+	font-size: 0.85rem;
+	color: #333;
+}
+
+.success-message {
+	padding: 1rem;
+	margin-bottom: 1.5rem;
+	background-color: #d4edda;
+	border: 1px solid #c3e6cb;
+	border-radius: 6px;
+	color: #155724;
+	font-weight: 500;
+	text-align: center;
+	animation: slideIn 0.3s ease;
+}
+
+@keyframes slideIn {
+	from {
+		opacity: 0;
+		transform: translateY(-10px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@media (max-width: 768px) {
+	.kolibri-form-container {
+		padding: 1.5rem;
+		margin: 1rem;
+	}
+
+	.kolibri-form-container h2 {
+		font-size: 1.5rem;
+	}
+
+	.form-actions {
+		flex-direction: column;
+	}
+}
