@@ -1,4 +1,4 @@
-import { expect, test } from '@playwright/test';
+import { test } from '@playwright/test';
 
 test.use({
 	viewport: {
@@ -25,34 +25,12 @@ test.describe('Suno Song Tests', () => {
 		'528cdb8c-56ff-431c-b201-2ac6ed6bb382', // Hummingbird fly (Christmas-Chor)
 		'151f2a53-9784-49a8-8bd5-49f2b3c8e88d', // Hummingbird fly (Cyberpunk)
 		'3fc2773d-ac50-49a2-b791-71fb79cd76e9', // Hummingbird fly (Piano)
+		'6bee8bfd-7e57-4454-a755-9f7e4f78666e', // Hummingbird fly (Deep Mystery)
 	].forEach((hash) => {
 		test(`Test ${hash}`, async ({ page }) => {
 			await page.goto(`https://suno.com/song/${hash}`);
 			await page.getByRole('button', { name: 'Playbar: Play button' }).click();
 			await page.waitForTimeout(5000);
-		});
-	});
-});
-
-test.describe('StackBlitz Projects', () => {
-	test.describe.configure({
-		mode: 'serial',
-	});
-	const stackblitzBaseUrl = 'https://stackblitz.com/edit/';
-	const stackblitzHashes = [
-		'vitejs-vite-zmnbtsbi', // v4
-		'vitejs-vite-ihadrw', // v3
-		'vitejs-vite-kkfhk5', // v2
-		'vitejs-vite-dcg6xo', // v1
-	];
-
-	stackblitzHashes.forEach((hash) => {
-		const projectUrl = `${stackblitzBaseUrl}${hash}?file=src%2FApp.jsx`;
-		test(`Load StackBlitz project ${hash}`, async ({ page }) => {
-			await page.goto(projectUrl, { waitUntil: 'domcontentloaded' });
-			await page.waitForLoadState('networkidle');
-			await expect(page).toHaveURL(/stackblitz\.com\/edit\//);
-			await page.waitForTimeout(3000);
 		});
 	});
 });
