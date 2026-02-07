@@ -7,7 +7,12 @@ on:
 
 jobs:
   test:
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+        browser: [chromium, firefox, webkit]
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -26,8 +31,13 @@ jobs:
       - name: Install dependencies
         run: pnpm i
 
-      - name: Install Playwright browsers
-        run: pnpm exec playwright install chromium
+      - name: Install Playwright browsers (Linux)
+        if: runner.os == 'Linux'
+        run: pnpm exec playwright install --with-deps ${{ matrix.browser }}
+
+      - name: Install Playwright browsers (macOS/Windows)
+        if: runner.os != 'Linux'
+        run: pnpm exec playwright install ${{ matrix.browser }}
 
       - name: Run Playwright tests
-        run: pnpm run test:e2e
+        run: pnpm exec playwright test --project=${{ matrix.browser }}
