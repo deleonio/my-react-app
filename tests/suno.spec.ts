@@ -33,7 +33,6 @@ test.describe('Suno Song Tests', () => {
 		'6bee8bfd-7e57-4454-a755-9f7e4f78666e', // Hummingbird fly (Deep Mystery)
 	].forEach((hash) => {
 		test(`Test ${hash}`, async ({ page }) => {
-			await page.goto(`https://katalog.kern-ux.de/public-ui-kolibri-web-components`);
 			await page.goto(`https://suno.com/song/${hash}`);
 			await page.getByRole('button', { name: 'Playbar: Play button' }).click();
 			await page.waitForTimeout(5000);
